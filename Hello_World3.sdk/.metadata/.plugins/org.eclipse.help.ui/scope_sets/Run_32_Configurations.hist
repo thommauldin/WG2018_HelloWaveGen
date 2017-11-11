@@ -1,0 +1,4 @@
+#Tue Nov 07 18:36:50 EST 2017
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=Run Configurations

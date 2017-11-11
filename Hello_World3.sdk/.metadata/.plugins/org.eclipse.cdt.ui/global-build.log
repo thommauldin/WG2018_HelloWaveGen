@@ -1,0 +1,920 @@
+20:55:48 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:57:13 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:57:36 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+22:49:06 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:49:55 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+19:49:43 **** Build of project Hello_World_bsp_0 ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_4/src"
+make -C microblaze_0/libsrc/standalone_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_4/src"
+make -C microblaze_0/libsrc/standalone_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+19:55:04 **** Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Hello_World.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_World.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_World.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_World.elf  |tee "Hello_World.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3866	    388	   3114	   7368	   1cc8	Hello_World.elf
+'Finished building: Hello_World.elf.size'
+' '
+19:55:41 **** Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+../src/Hello_Wavegen.c: In function 'main':
+../src/Hello_Wavegen.c:18:8: warning: implicit declaration of function 'gpio_init' [-Wimplicit-function-declaration]
+        gpio_init();
+        ^~~~~~~~~
+../src/Hello_Wavegen.c:20:8: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+        delay(20000);
+        ^~~~~
+../src/Hello_Wavegen.c:21:8: warning: implicit declaration of function 'lcd_command' [-Wimplicit-function-declaration]
+        lcd_command(0x38);    // Function set: 8-bit/2-line
+        ^~~~~~~~~~~
+../src/Hello_Wavegen.c:27:8: warning: implicit declaration of function 'lcd_write' [-Wimplicit-function-declaration]
+        lcd_write('F');
+        ^~~~~~~~~
+../src/Hello_Wavegen.c:36:8: warning: implicit declaration of function 'cursor' [-Wimplicit-function-declaration]
+        cursor(2,1);
+        ^~~~~~
+../src/Hello_Wavegen.c: At top level:
+../src/Hello_Wavegen.c:76:6: warning: conflicting types for 'delay'
+ void delay(int counter)
+      ^~~~~
+../src/Hello_Wavegen.c:20:8: note: previous implicit declaration of 'delay' was here
+        delay(20000);
+        ^~~~~
+../src/Hello_Wavegen.c:81:6: warning: conflicting types for 'gpio_init'
+ void gpio_init (void)
+      ^~~~~~~~~
+../src/Hello_Wavegen.c:18:8: note: previous implicit declaration of 'gpio_init' was here
+        gpio_init();
+        ^~~~~~~~~
+../src/Hello_Wavegen.c:93:6: warning: conflicting types for 'lcd_command'
+ void lcd_command(char i)
+      ^~~~~~~~~~~
+../src/Hello_Wavegen.c:21:8: note: previous implicit declaration of 'lcd_command' was here
+        lcd_command(0x38);    // Function set: 8-bit/2-line
+        ^~~~~~~~~~~
+../src/Hello_Wavegen.c:111:6: warning: conflicting types for 'lcd_write'
+ void lcd_write(char i)
+      ^~~~~~~~~
+../src/Hello_Wavegen.c:27:8: note: previous implicit declaration of 'lcd_write' was here
+        lcd_write('F');
+        ^~~~~~~~~
+../src/Hello_Wavegen.c:120:6: warning: conflicting types for 'cursor'
+ void cursor(int row, int column)
+      ^~~~~~
+../src/Hello_Wavegen.c:36:8: note: previous implicit declaration of 'cursor' was here
+        cursor(2,1);
+        ^~~~~~
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5922	    456	   3182	   9560	   2558	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+19:56:19 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+19:56:43 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+19:58:56 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+19:59:20 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:00:43 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:01:07 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:03:37 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:04:02 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:04:48 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:05:13 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:06:15 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:06:39 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:10:30 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5922	    456	   3182	   9560	   2558	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+20:11:14 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:11:38 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:12:00 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:12:23 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:14:31 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5074	    456	   3182	   8712	   2208	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+20:15:23 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:15:47 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:15:57 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:16:20 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:18:18 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4786	    456	   3182	   8424	   20e8	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+20:18:52 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:19:16 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+20:20:32 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+20:20:55 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:22:43 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5878	    456	   3178	   9512	   2528	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+23:25:19 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:25:43 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:27:38 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:28:02 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:35:29 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6614	    456	   3178	  10248	   2808	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+23:36:27 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:36:51 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:37:02 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:37:26 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:45:41 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6690	    456	   3182	  10328	   2858	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+23:46:52 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:47:15 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:47:41 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:48:04 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:49:42 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:50:00 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:53:50 **** Auto Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Hello_World.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_World.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_World.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_World.elf  |tee "Hello_World.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5290	    456	   3182	   8928	   22e0	Hello_World.elf
+'Finished building: Hello_World.elf.size'
+' '
+23:54:23 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:54:47 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:55:00 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:55:23 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:56:50 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6690	    456	   3182	  10328	   2858	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+23:57:22 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:57:46 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:57:56 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:58:20 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+23:58:52 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6690	    456	   3182	  10328	   2858	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+00:29:19 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6662	    456	   3178	  10296	   2838	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+00:00:49 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:35:18: fatal error: xgpio.h: No such file or directory
+ #include<xgpio.h>
+                  ^
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+00:01:28 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+../src/Hello_Wavegen.c:9:18: fatal error: xgpio.h: No such file or directory
+ #include<xgpio.h>
+                  ^
+compilation terminated.
+make: *** [src/Hello_Wavegen.o] Error 1
+00:02:24 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:35:18: fatal error: xgpio.h: No such file or directory
+ #include<xgpio.h>
+                  ^
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+00:02:51 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+../src/Hello_Wavegen.c:9:18: fatal error: xgpio.h: No such file or directory
+ #include<xgpio.h>
+                  ^
+compilation terminated.
+make: *** [src/Hello_Wavegen.o] Error 1
+00:06:03 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_4/src"
+make -C microblaze_0/libsrc/standalone_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_4/src"
+make -C microblaze_0/libsrc/standalone_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+00:10:46 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+../src/Hello_Wavegen.c:9:18: fatal error: xgpio.h: No such file or directory
+ #include<xgpio.h>
+                  ^
+compilation terminated.
+make: *** [src/Hello_Wavegen.o] Error 1
+00:11:04 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6662	    456	   3178	  10296	   2838	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+00:11:51 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:35:18: fatal error: xgpio.h: No such file or directory
+ #include<xgpio.h>
+                  ^
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+00:12:13 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+00:13:14 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:35:18: fatal error: xgpio.h: No such file or directory
+ #include<xgpio.h>
+                  ^
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+00:13:33 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+00:15:36 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:35:18: fatal error: xgpio.h: No such file or directory
+ #include<xgpio.h>
+                  ^
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+00:16:04 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:01:54 **** Auto Build of project Hello_World_bsp_0 ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_4/src"
+make -C microblaze_0/libsrc/standalone_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_4/src"
+make -C microblaze_0/libsrc/standalone_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+08:06:14 **** Auto Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Hello_World_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Hello_World.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_World.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_World.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_World.elf  |tee "Hello_World.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5290	    456	   3182	   8928	   22e0	Hello_World.elf
+'Finished building: Hello_World.elf.size'
+' '
+08:13:19 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6914	    456	   3182	  10552	   2938	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:14:07 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:14:27 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:17:59 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:18:17 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:21:57 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6826	    456	   3182	  10464	   28e0	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:22:35 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:22:59 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:24:55 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6854	    456	   3178	  10488	   28f8	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:27:52 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6854	    456	   3178	  10488	   28f8	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:28:30 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:28:54 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:31:51 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6822	    456	   3178	  10456	   28d8	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:35:19 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6814	    456	   3178	  10448	   28d0	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:35:52 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:36:17 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:38:12 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6814	    456	   3178	  10448	   28d0	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:38:44 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:39:08 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:40:12 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5682	    456	   3182	   9320	   2468	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:41:40 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:42:04 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:42:48 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6846	    456	   3178	  10480	   28f0	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:45:10 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:45:34 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:49:32 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5858	    456	   3182	   9496	   2518	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:50:18 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:50:44 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.
+08:55:43 **** Auto Build of configuration Debug for project Hello_WaveGen ****
+make all 
+'Building file: ../src/Hello_Wavegen.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hello_Wavegen.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Hello_Wavegen.d" -MT"src/Hello_Wavegen.o" -o "src/Hello_Wavegen.o" "../src/Hello_Wavegen.c"
+'Finished building: ../src/Hello_Wavegen.c'
+' '
+'Building target: Hello_WaveGen.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_WaveGen.elf"  ./src/Hello_Wavegen.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_WaveGen.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Hello_WaveGen.elf  |tee "Hello_WaveGen.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5858	    456	   3182	   9496	   2518	Hello_WaveGen.elf
+'Finished building: Hello_WaveGen.elf.size'
+' '
+08:56:28 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+08:56:48 **** Incremental Build of configuration Debug for project Hello_WaveGen ****
+make all 
+make: Nothing to be done for `all'.

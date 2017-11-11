@@ -1,0 +1,130 @@
+/*
+ * Hello_Wavegen.c
+ *
+ *  Created on: Nov 6, 2017
+ *      Author: Thomas
+ */
+
+#include<stdio.h>
+#include<xgpio.h>
+#include<xparameters.h>
+
+XGpio e,rs,rw,lcd_data;
+
+/********************************Main Program************************************/
+
+int main(void)
+{
+       gpio_init();
+       XGpio_DiscreteWrite(&rw,1,0);	// Setup the LCD to read
+       delay(20000);
+       lcd_command(0x38);				// Function set: 8-bit/2-line
+       lcd_command(0x01);				// Clear Display
+       lcd_command(0x0F);				// Display ON; Cursor ON; Cursor Blink
+       lcd_command(0x06);				// Entry Mode Set
+
+	   /* Initialize screen */
+       lcd_write('F');
+       lcd_write('r');
+       lcd_write('e');
+       lcd_write('q');
+       lcd_write('u');
+       lcd_write('e');
+       lcd_write('n');
+       lcd_write('c');
+       lcd_write('y');
+       cursor(2,1);
+       lcd_write('V');
+       lcd_write('o');
+       lcd_write('l');
+       lcd_write('t');
+       lcd_write('a');
+       lcd_write('g');
+       lcd_write('e');
+       cursor(3,1);
+       lcd_write('B');
+       lcd_write('a');
+       lcd_write('n');
+       lcd_write('k');
+       cursor (4,1);
+       lcd_write('O');
+       lcd_write('p');
+       lcd_write('t');
+       lcd_write('i');
+       lcd_write('o');
+       lcd_write('n');
+       lcd_write('s');
+
+       return 0;
+}
+
+/********************************Declare Functions************************************/
+
+char reverse(char data)
+{
+     int i;
+     int temp1;
+     int temp2=0;
+     for(i=0;i<10;i++)
+     {
+         temp1 = (data>>i)&1;
+         temp2+= temp1 << (9-i);
+     }
+     return temp2;
+}
+
+void delay(int counter)
+{
+       while(counter) counter--;
+}
+
+void gpio_init (void)
+{
+     XGpio_Initialize(&e, XPAR_AXI_GPIO_1_DEVICE_ID);
+     XGpio_Initialize(&rs, XPAR_AXI_GPIO_2_DEVICE_ID);
+     XGpio_Initialize(&rw, XPAR_AXI_GPIO_0_DEVICE_ID);
+     XGpio_Initialize(&lcd_data, XPAR_AXI_GPIO_3_DEVICE_ID);
+     /*Set the all GPIOs as output*/
+     XGpio_SetDataDirection(&e,1,0);
+     XGpio_SetDataDirection(&rs,1,0);
+     XGpio_SetDataDirection(&rw,1,0);
+     XGpio_SetDataDirection(&lcd_data,1,0);
+}
+void lcd_command(char i)
+{
+     XGpio_DiscreteWrite(&lcd_data,1,reverse(i));
+     XGpio_DiscreteWrite(&rs, 1, 0);
+     XGpio_DiscreteWrite(&e, 1, 1);
+     XGpio_DiscreteWrite(&e, 1, 0);
+     delay(200000);
+}
+
+void lcd_command_cursor(char i)
+{
+     XGpio_DiscreteWrite(&lcd_data,1,reverse(i));
+     XGpio_DiscreteWrite(&rs, 1, 0);
+     XGpio_DiscreteWrite(&e, 1, 1);
+     XGpio_DiscreteWrite(&e, 1, 0);
+     delay(200000);
+}
+
+void lcd_write(char i)
+{
+      XGpio_DiscreteWrite(&lcd_data, 1,reverse(i));
+      XGpio_DiscreteWrite(&rs, 1, 1);
+      XGpio_DiscreteWrite(&e, 1, 1);
+      XGpio_DiscreteWrite(&e, 1, 0);
+      delay(200000);
+}
+
+void cursor(int row, int column)
+{
+      if(row==1)
+      		lcd_command_cursor(0x80|(column-1));
+      if (row==2)
+      		lcd_command_cursor(0x80|(0x40+(column-1)));
+	  if (row==3)
+      		lcd_command_cursor(0x80|(0x14+(column-1)));
+      if (row==4)
+      		lcd_command_cursor(0x80|(0x54+(column-1)));
+}

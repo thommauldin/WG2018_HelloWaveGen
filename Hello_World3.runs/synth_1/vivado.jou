@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Thu Nov  9 23:35:37 2017
+# Process ID: 14764
+# Current directory: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
