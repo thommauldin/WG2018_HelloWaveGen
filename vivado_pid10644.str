@@ -1,0 +1,1446 @@
+/*
+
+Xilinx Vivado v2017.3.1 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2035080 on Fri Oct 20 14:20:01 MDT 2017
+IP Build: 2034413 on Fri Oct 20 15:56:25 MDT 2017
+
+Process ID: 10644
+License: Customer
+
+Current time: 	Sat Jan 27 20:07:23 EST 2018
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 173 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	Thomas
+User home directory: C:/Users/Thomas
+User working directory: C:/Users/Thomas/Documents/GitHub/Hello_World3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/Thomas/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/Thomas/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/Thomas/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Thomas/Documents/GitHub/Hello_World3/vivado.log
+Vivado journal file location: 	C:/Users/Thomas/Documents/GitHub/Hello_World3/vivado.jou
+Engine tmp dir: 	C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop
+
+GUI allocated memory:	164 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 461 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 42 MB (+41969kb) [00:00:24]
+// [Engine Memory]: 443 MB (+312560kb) [00:00:24]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Thomas\Documents\GitHub\Hello_World3\Hello_World3.xpr. Version: Vivado v2017.3.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.xpr 
+// [GUI Memory]: 49 MB (+4278kb) [00:00:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 478 MB. GUI used memory: 33 MB. Current time: 1/27/18 8:07:25 PM EST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 499 MB (+35623kb) [00:00:35]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 31 MB. Current time: 1/27/18 8:07:50 PM EST
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 526 MB (+2517kb) [00:01:00]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 56 MB (+5677kb) [00:01:08]
+// [Engine Memory]: 563 MB (+11397kb) [00:01:08]
+// [GUI Memory]: 66 MB (+7179kb) [00:01:21]
+// Tcl Message: open_project C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 613 MB. GUI used memory: 42 MB. Current time: 1/27/18 8:08:18 PM EST
+// [Engine Memory]: 618 MB (+28145kb) [00:01:26]
+// Tcl Message: open_project: Time (s): cpu = 00:01:17 ; elapsed = 00:00:55 . Memory (MB): peak = 781.637 ; gain = 122.172 
+// Project name: Hello_World3; location: C:/Users/Thomas/Documents/GitHub/Hello_World3; part: xc7s50csga324-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (cl): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cl)
+// PAPropertyPanels.initPanels (hd44780.h) elapsed time: 0.7s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, hd44780.h]", 4, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, hd44780.h]", 4, false, false, false, false, true, false); // B (D, cl) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, cl)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as (cl): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+dismissDialog("Remove Sources"); // as (cl)
+// as (cl): Remove Sources: addNotify
+// bs (as):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/Thomas/Downloads/hd44780_111/hd44780.h] -no_script -reset -force -quiet 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/Thomas/Downloads/hd44780_111/hd44780.h 
+dismissDialog("Remove Sources"); // bs (as)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 71 MB (+1881kb) [00:02:03]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, hd44780_settings.h]", 4, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, hd44780_settings.h]", 4, false, false, false, false, true, false); // B (D, cl) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, cl)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as (cl): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+dismissDialog("Remove Sources"); // as (cl)
+// [GUI Memory]: 78 MB (+3095kb) [00:02:35]
+// as (cl): Remove Sources: addNotify
+// bs (as):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/Thomas/Downloads/hd44780_111/hd44780_settings.h] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/Thomas/Downloads/hd44780_111/hd44780_settings.h 
+dismissDialog("Remove Sources"); // bs (as)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs (cl):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1 Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_1 Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0 Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0 Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0 Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1 Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_2 Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_3 
+// HMemoryUtils.trashcanNow. Engine heap size: 662 MB. GUI used memory: 43 MB. Current time: 1/27/18 8:09:43 PM EST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [Engine Memory]: 662 MB (+13820kb) [00:02:49]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10 Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10 Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram 
+// Tcl Message: Successfully read diagram <design_1> from BD file <C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 736 MB (+42182kb) [00:03:19]
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 48 MB. Current time: 1/27/18 8:10:22 PM EST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:45 . Memory (MB): peak = 882.547 ; gain = 88.215 
+// 'by' command handler elapsed time: 45 seconds
+// Elapsed time: 46 seconds
+dismissDialog("Open Block Design"); // bs (cl)
+// [GUI Memory]: 85 MB (+3021kb) [00:03:30]
+// WARNING: HTimer (RSBAttributeDisplay Update Pin Markers Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 47 MB. Current time: 1/27/18 8:10:58 PM EST
+// PAPropertyPanels.initPanels (gpio_rtl_0) elapsed time: 0.6s
+// Elapsed time: 180 seconds
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "e", true); // X (N, cl)
+// Tcl Command: 'set_property name e [get_bd_intf_ports gpio_rtl_0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name e [get_bd_intf_ports gpio_rtl_0] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 90 MB (+1011kb) [00:06:37]
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// Elapsed time: 31 seconds
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "rs"); // X (N, cl)
+// Tcl Command: 'set_property name rs [get_bd_intf_ports gpio_rtl_1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rs [get_bd_intf_ports gpio_rtl_1] 
+// Elapsed time: 23 seconds
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "lcd_data", true); // X (N, cl)
+// Tcl Command: 'set_property name lcd_data [get_bd_intf_ports gpio_rtl_2]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name lcd_data [get_bd_intf_ports gpio_rtl_2] 
+// Elapsed time: 20 seconds
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "rw", true); // X (N, cl)
+// Tcl Command: 'set_property name rw [get_bd_intf_ports gpio_rtl]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rw [get_bd_intf_ports gpio_rtl] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 508, 55, 695, 311, false, false, false, true, false); // fr (k, cl) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ac (ai, cl)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "gpi"); // OverlayTextField (Q, ResizableWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 0, "AXI GPIO", 0, false); // O (O, ResizableWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 0, "AXI GPIO", 0, false); // O (O, ResizableWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 0); // O (O, ResizableWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 0, "AXI GPIO", 0, false, false, false, false, false, true); // O (O, ResizableWindow) - Double Click
+// Tcl Message: startgroup 
+// bs (cl):  Add IP : addNotify
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_4 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (cm, cl)
+// w (cl): Run Connection Automation: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// PAPropertyPanels.initPanels (axi_gpio_4) elapsed time: 0.5s
+// Elapsed time: 10 seconds
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 3 selected), axi_gpio_4]", 1, true, true, ui.utils.TriState.True); // J (O, w) - Node
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (3 out of 3 selected), clk_wiz_1]", 4, true, true, ui.utils.TriState.True); // J (O, w) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (w)
+// [GUI Memory]: 96 MB (+1747kb) [00:08:31]
+dismissDialog("Run Connection Automation"); // w (cl)
+// bs (cl):  Run Connection Automation : addNotify
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "reset ( System Reset ) " }  [get_bd_pins clk_wiz_1/reset] 
+// Tcl Message: INFO: [board_rule 100-100] set_property CONFIG.RESET_BOARD_INTERFACE reset [get_bd_cells /clk_wiz_1] 
+// [Engine Memory]: 826 MB (+55624kb) [00:08:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 51 MB. Current time: 1/27/18 8:15:35 PM EST
+// [Engine Memory]: 871 MB (+4149kb) [00:08:43]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [board_rule 100-100] connect_bd_net /reset /clk_wiz_1/reset INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_LOW /reset 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1025.020 ; gain = 126.754 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Periph)" intc_ip "/microblaze_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_4/S_AXI] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 905 MB. GUI used memory: 51 MB. Current time: 1/27/18 8:15:54 PM EST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_gpio_4/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x40040000 [ 64K ]> 
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 1044.082 ; gain = 19.063 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "dip_switches_4bits ( 4 Switches ) " }  [get_bd_intf_pins axi_gpio_4/GPIO] 
+// Tcl Message: INFO: [board_rule 100-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /axi_gpio_4] INFO: [board_rule 100-100] set_property CONFIG.GPIO_BOARD_INTERFACE dip_switches_4bits [get_bd_cells /axi_gpio_4] 
+// Tcl Message: INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 dip_switches_4bits INFO: [board_rule 100-100] connect_bd_intf_net /dip_switches_4bits /axi_gpio_4/GPIO 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: endgroup 
+// Elapsed time: 36 seconds
+dismissDialog("Run Connection Automation"); // bs (cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// PAPropertyPanels.initPanels (GPIO) elapsed time: 0.4s
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// N (cl):  Re-customize IP : addNotify
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 27 seconds
+dismissDialog("Re-customize IP"); // N (cl)
+// Elapsed time: 12 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bb (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // bb (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Tcl Command: 'set_property -dict [list CONFIG.GPIO_BOARD_INTERFACE {push_buttons_4bits}] [get_bd_cells axi_gpio_4]'
+// Tcl Message: startgroup 
+// r (cl): Re-customize IP: addNotify
+// bs (r):  Customize IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.GPIO_BOARD_INTERFACE {push_buttons_4bits}] [get_bd_cells axi_gpio_4] 
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // bs (r)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// [Engine Memory]: 917 MB (+2783kb) [00:10:09]
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Tcl Message: startgroup 
+// Tcl Message: endgroup 
+// Elapsed time: 16 seconds
+expandTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, External Interfaces, dip_switches_4bits]", 2); // i (O, cl)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, External Interfaces, dip_switches_4bits]", 2); // i (O, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 925 MB. GUI used memory: 56 MB. Current time: 1/27/18 8:17:30 PM EST
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, External Interfaces, dip_switches_4bits]", 2, true); // i (O, cl) - Node
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 22 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bb (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // bb (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Tcl Message: startgroup 
+// Tcl Message: endgroup 
+// Elapsed time: 79 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cl):  Save Constraints : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Save Project"); // am (cl)
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : <C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Save Constraints"); // bs (cl)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run design_1_xbar_0_synth_1 
+// TclEventType: RUN_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 960 MB. GUI used memory: 57 MB. Current time: 1/27/18 8:19:35 PM EST
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 18 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. 
+// Tcl Message: ERROR: [BD 41-238] Port/Pin property POLARITY does not match between /clk_wiz_1/reset(ACTIVE_HIGH) and /reset(ACTIVE_LOW) 
+// Tcl Message: ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd  
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.  
+// aP (cl): Launch Run Critical Messages: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 101 MB (+431kb) [00:15:31]
+// Elapsed time: 326 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aP)
+dismissDialog("Launch Run Critical Messages"); // aP (cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// PAPropertyPanels.initPanels (reset_1) elapsed time: 0.6s
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// bs (cl):  Confirm Delete : addNotify
+// Tcl Message: delete_bd_objs [get_bd_nets reset_1] 
+// Elapsed time: 36 seconds
+dismissDialog("Confirm Delete"); // bs (cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (cm, cl)
+// w (cl): Run Connection Automation: addNotify
+// PAPropertyPanels.initPanels (ext_reset_in) elapsed time: 0.4s
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (1 out of 2 selected), rst_clk_wiz_1_100M, ext_reset_in]", 4, false, true, ui.utils.TriState.True); // J (O, w)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (w)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Run Connection Automation"); // w (cl)
+// bs (cl):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "reset ( System Reset ) " }  [get_bd_pins rst_clk_wiz_1_100M/ext_reset_in] 
+// Tcl Message: INFO: [board_rule 100-100] set_property CONFIG.RESET_BOARD_INTERFACE reset [get_bd_cells /rst_clk_wiz_1_100M] INFO: [board_rule 100-100] create_bd_port -dir I reset_0 -type rst INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_0 INFO: [board_rule 100-100] connect_bd_net /reset_0 /rst_clk_wiz_1_100M/ext_reset_in INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_LOW /reset_0 
+// [GUI Memory]: 107 MB (+804kb) [00:19:06]
+dismissDialog("Run Connection Automation"); // bs (cl)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// PAPropertyPanels.initPanels (reset) elapsed time: 0.2s
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_ports reset] 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 31 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bb (C, r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bb (C, r)
+// Elapsed time: 21 seconds
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bb (C, r)
+dismissDialog("Re-customize IP"); // r (cl)
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// bs (cl):  Validate Design : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: validate_bd_design 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// Tcl Message: INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. 
+// TclEventType: RSB_PARAM_PROP
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1087.000 ; gain = 0.000 
+// Elapsed time: 17 seconds
+dismissDialog("Validate Design"); // bs (cl)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (A, G)
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cl):  Save Constraints : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Save Project"); // am (cl)
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// Tcl Message: save_bd_design 
+// [Engine Memory]: 968 MB (+5206kb) [00:21:38]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : <C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// bs (cl):  Resetting Runs : addNotify
+// f (cl): Launch Runs: addNotify
+dismissDialog("Save Constraints"); // bs (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 6 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: RSB_SCRIPT_TASK
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 64 MB. Current time: 1/27/18 8:28:39 PM EST
+// [Engine Memory]: 1,023 MB (+6882kb) [00:21:46]
+// Tcl Message: VHDL Output written to : C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc . INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat . INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 . 
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_4 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:29 ; elapsed = 00:00:52 . Memory (MB): peak = 1194.707 ; gain = 101.258 
+// Elapsed time: 52 seconds
+dismissDialog("Generate Bitstream"); // bs (cl)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 118 MB (+6099kb) [00:26:06]
+// [GUI Memory]: 126 MB (+1292kb) [00:26:21]
+// [GUI Memory]: 133 MB (+1075kb) [00:26:46]
+// [GUI Memory]: 140 MB (+494kb) [00:27:01]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah (cl): Bitstream Generation Failed: addNotify
+// Elapsed time: 1541 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cl)
+// Elapsed time: 80 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc:1]. ]", 6); // ah (O, cl)
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bs (cl):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// [Engine Memory]: 1,124 MB (+51844kb) [00:50:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,150 MB. GUI used memory: 73 MB. Current time: 1/27/18 8:57:28 PM EST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// [Engine Memory]: 1,185 MB (+5220kb) [00:51:05]
+// TclEventType: READ_XDC_FILE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,187 MB. GUI used memory: 73 MB. Current time: 1/27/18 8:58:01 PM EST
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 1,248 MB (+3721kb) [00:51:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,248 MB. GUI used memory: 72 MB. Current time: 1/27/18 8:58:25 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,271 MB. GUI used memory: 72 MB. Current time: 1/27/18 8:58:40 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,325 MB. GUI used memory: 72 MB. Current time: 1/27/18 8:58:55 PM EST
+// [Engine Memory]: 1,325 MB (+16345kb) [00:52:01]
+// [Engine Memory]: 1,575 MB (+192271kb) [00:52:06]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// HMemoryUtils.trashcanNow. Engine heap size: 1,593 MB. GUI used memory: 71 MB. Current time: 1/27/18 8:59:10 PM EST
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,594 MB. GUI used memory: 71 MB. Current time: 1/27/18 8:59:11 PM EST
+// Xgd.load filename: C:/Xilinx/Vivado/2017.3/data/parts/xilinx/spartan7/devint/spartan7/xc7s50/xc7s50.xgd; ZipEntry: xc7s50_floorplan.xgd elapsed time: 0.6s
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,665 MB (+11663kb) [00:52:20]
+// Xgd.load filename: C:/Xilinx/Vivado/2017.3/data/parts/xilinx/spartan7/devint/spartan7/xc7s50/xc7s50.xgd; ZipEntry: xc7s50_detail.xgd elapsed time: 1.7s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 4.8s
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 356 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.3.1 INFO: [Device 21-403] Loading part xc7s50csga324-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Constraints 18-4398] Generator version for shapeDB does not match. shapeDB will be regenerated. 
+// Tcl Message: Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop/dcp33/design_1_wrapper_board.xdc] Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop/dcp33/design_1_wrapper_board.xdc] Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop/dcp33/design_1_wrapper_early.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0.xdc:50] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:01:03 ; elapsed = 00:00:58 . Memory (MB): peak = 1940.777 ; gain = 424.293 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop/dcp33/design_1_wrapper_early.xdc] Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop/dcp33/design_1_wrapper.xdc] 
+// Tcl Message: INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_clk_out1_design_1_clk_wiz_1_0' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc:26] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop/dcp33/design_1_wrapper.xdc] Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop/dcp33/design_1_wrapper_late.xdc] Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/.Xil/Vivado-10644-Thomas-labtop/dcp33/design_1_wrapper_late.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1948.801 ; gain = 7.375 
+// Tcl Message: Restored from archive | CPU: 4.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1948.801 ; gain = 7.375 
+// Tcl Message: Generating merged BMM file for the design top 'design_1_wrapper'... 
+// Tcl Message: INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/data/mb_bootloop_le.elf  INFO: [Project 1-111] Unisim Transformation Summary:   A total of 156 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 11 instances   LUT6_2 => LUT6_2 (LUT5, LUT6): 95 instances   RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 16 instances   SRLC16E => SRL16E: 2 instances  
+// Tcl Message: open_run: Time (s): cpu = 00:02:17 ; elapsed = 00:02:05 . Memory (MB): peak = 2026.867 ; gain = 700.148 
+// ExpRunCommands.openImplResults elapsed time: 127.9s
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// OpenDesignTask elapsed time: 149.6s
+// 'dM' command handler elapsed time: 152 seconds
+// [GUI Memory]: 153 MB (+6685kb) [00:52:54]
+// Elapsed time: 153 seconds
+dismissDialog("Open Implemented Design"); // bs (cl)
+// PAPropertyPanels.initPanels (GPIO_10965) elapsed time: 0.2s
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_10965 (1) ; INOUT ;  ;  ;  ;  ; false ; 16 ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 3, "default (LVCMOS18)", 8, true); // G (O, cl) - Node
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list {e_tri_io[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_11157 (1) ; INOUT ;  ;  ;  ;  ; false ; 16 ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 4, "default (LVCMOS18)", 8, true); // G (O, cl) - Node
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list {rs_tri_io[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_59924 (1) ; INOUT ;  ;  ;  ;  ; false ; 34 ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "default (LVCMOS18)", 8, true); // G (O, cl) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,712 MB. GUI used memory: 118 MB. Current time: 1/27/18 9:00:12 PM EST
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list {rw_tri_io[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_60244 (8) ; INOUT ;  ;  ;  ;  ; false ; 16 ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 6, "default (LVCMOS18)", 8, true); // G (O, cl) - Node
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list {lcd_data_tri_io[7]} {lcd_data_tri_io[6]} {lcd_data_tri_io[5]} {lcd_data_tri_io[4]} {lcd_data_tri_io[3]} {lcd_data_tri_io[2]} {lcd_data_tri_io[1]} {lcd_data_tri_io[0]}]] 
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_10965 (1) ; INOUT ;  ;  ;  ;  ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 3); // G (O, cl)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io (1) ; INOUT ;  ;  ;  ;  ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 4); // G (O, cl)
+// PAPropertyPanels.initPanels (e_tri_io[0]) elapsed time: 0.9s
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io[0] ; INOUT ;  ;  ;  ; C10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "e_tri_io[0]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io[0] ; INOUT ;  ;  ;  ; C10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "e_tri_io[0]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, cl)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+// Elapsed time: 15 seconds
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io[0] ; INOUT ;  ;  ;  ; C10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "e_tri_io[0]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io[0] ; INOUT ;  ;  ;  ; C10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "e_tri_io[0]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io[0] ; INOUT ;  ;  ;  ; C10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "e_tri_io[0]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, cl)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+// Elapsed time: 45 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io[0] ; INOUT ;  ;  ;  ; C10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, (String) null, 4, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io[0] ; INOUT ;  ;  ;  ; C10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, (String) null, 4, false); // G (O, cl)
+// Elapsed time: 70 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "e_tri_io[0] ; INOUT ;  ;  ;  ; C10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "e_tri_io[0]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, cl)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 2411, 3594); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {e_tri_io[0]} U11 
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_10965 (1) ; INOUT ;  ;  ;  ;  ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 3); // G (O, cl)
+// [GUI Memory]: 163 MB (+1658kb) [00:56:12]
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_11157 (1) ; INOUT ;  ;  ;  ;  ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 4); // G (O, cl)
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (rs_tri_io) elapsed time: 1.1s
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "rs_tri_io (1) ; INOUT ;  ;  ;  ;  ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "rs_tri_io (1)", 0, true); // G (O, cl) - Node
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "rs_tri_io (1) ; INOUT ;  ;  ;  ;  ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "rs_tri_io (1)", 0, true, false, false, false, true, false); // G (O, cl) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z (ai, cl)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+// Elapsed time: 15 seconds
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_10965 (1) ; INOUT ;  ;  ;  ;  ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 3); // G (O, cl)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_10965 (1) ; INOUT ;  ;  ;  ;  ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 3); // G (O, cl)
+// Elapsed time: 11 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 2472, 3442); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {rs_tri_io[0]} T11 
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_11157 (1) ; INOUT ;  ;  ;  ;  ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 4); // G (O, cl)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_59924 (1) ; INOUT ;  ;  ;  ;  ; false ; 34 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "rw_tri_io (1) ; INOUT ;  ;  ;  ;  ; false ; 34 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 6, "rw_tri_io (1)", 0, true); // G (O, cl) - Node
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "rw_tri_io (1) ; INOUT ;  ;  ;  ;  ; false ; 34 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 6, "rw_tri_io (1)", 0, true, false, false, false, true, false); // G (O, cl) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 2456, 3290); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {rw_tri_io[0]} R11 
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_59924 (1) ; INOUT ;  ;  ;  ;  ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5); // G (O, cl)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_60244 (8) ; INOUT ;  ;  ;  ;  ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 6); // G (O, cl)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io (8) ; INOUT ;  ;  ;  ;  ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 7); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[0] ; INOUT ;  ;  ;  ; D10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 15, "lcd_data_tri_io[0]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[0] ; INOUT ;  ;  ;  ; D10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 15, "lcd_data_tri_io[0]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+// Elapsed time: 18 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 2669, 3290); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {lcd_data_tri_io[0]} L13 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[1] ; INOUT ;  ;  ;  ; A11 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 14, "lcd_data_tri_io[1]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[1] ; INOUT ;  ;  ;  ; A11 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 14, "lcd_data_tri_io[1]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[1] ; INOUT ;  ;  ;  ; A11 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 14, "lcd_data_tri_io[1]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+// Elapsed time: 20 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 2881, 2851); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {lcd_data_tri_io[1]} N13 
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[2] ; INOUT ;  ;  ;  ; B11 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 13, "lcd_data_tri_io[2]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[2] ; INOUT ;  ;  ;  ; B11 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 13, "lcd_data_tri_io[2]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 3048, 3184); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {lcd_data_tri_io[2]} R14 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[3] ; INOUT ;  ;  ;  ; C11 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 12, "lcd_data_tri_io[3]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[3] ; INOUT ;  ;  ;  ; C11 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 12, "lcd_data_tri_io[3]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 2987, 3336); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {lcd_data_tri_io[3]} T14 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[4] ; INOUT ;  ;  ;  ; C12 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 11, "lcd_data_tri_io[4]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[4] ; INOUT ;  ;  ;  ; C12 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 11, "lcd_data_tri_io[4]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 3472, 3290); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {lcd_data_tri_io[4]} R16 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[5] ; INOUT ;  ;  ;  ; A9 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 10, "lcd_data_tri_io[5]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[5] ; INOUT ;  ;  ;  ; A9 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 10, "lcd_data_tri_io[5]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+// Elapsed time: 14 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 3518, 3230); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {lcd_data_tri_io[5]} R17 
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[6] ; INOUT ;  ;  ;  ; A10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "lcd_data_tri_io[6]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[6] ; INOUT ;  ;  ;  ; A10 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "lcd_data_tri_io[6]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z (ai, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 3579, 3715); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {lcd_data_tri_io[6]} V17 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[7] ; INOUT ;  ;  ;  ; C9 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 8, "lcd_data_tri_io[7]", 0, false); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io[7] ; INOUT ;  ;  ;  ; C9 ; false ; 16 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 8, "lcd_data_tri_io[7]", 0, false, false, false, false, true, false); // G (O, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE, "Place I/O Ports in an I/O Bank"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_PLACE_PORTS_BANK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 3215, 3169); // B (C, cl)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {lcd_data_tri_io[7]} R15 
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "lcd_data_tri_io (8) ; INOUT ;  ;  ;  ;  ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 7); // G (O, cl)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_60244 (8) ; INOUT ;  ;  ;  ;  ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 6, "GPIO_60244 (8)", 0, true); // G (O, cl) - Node
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "GPIO_60244 (8) ; INOUT ;  ;  ;  ;  ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 6); // G (O, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cl)
+// Elapsed time: 25 seconds
+selectTab((HResource) null, (HResource) null, "Package Pins", 9); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "I/O Ports", 10); // aF (Q, cl)
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// x (cl): Out of Date Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cl):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // x (cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// 'h' command handler elapsed time: 11 seconds
+selectButton("PAResourceAtoD.ConstraintUtils_ALL_NEW_CONSTRAINTS_SAVED_OK", "OK"); // JButton (A, G)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8); // B (D, cl)
+// PAPropertyPanels.initPanels (LCD_Pinout.xdc) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, LCD_Pinout.xdc]", 10, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, LCD_Pinout.xdc]", 10, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, LCD_Pinout.xdc]", 10, false, false, false, false, false, true); // B (D, cl) - Double Click
+// [GUI Memory]: 172 MB (+1519kb) [01:01:15]
+// Elapsed time: 16 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Device view-level: 0.0
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// PAPropertyPanels.initPanels (LCD_Pinout.xdc) elapsed time: 0.4s
+// Tcl Message: open_bd_design {C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bs (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 55 seconds
+dismissDialog("Re-customize IP"); // r (cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// Elapsed time: 13 seconds
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "push_buttons_4bits", true); // X (N, cl)
+// Tcl Command: 'set_property name push_buttons_4bits [get_bd_intf_ports dip_switches_4bits]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name push_buttons_4bits [get_bd_intf_ports dip_switches_4bits] 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_uartlite_0_interrupt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_peripheral_aresetn 
+// Elapsed time: 32 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 2, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cl):  Save Constraints : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Save Project"); // am (cl)
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : <C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Save Constraints"); // bs (cl)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 12 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: DG_GRAPH_GENERATED
+// bs (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: VHDL Output written to : C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Jan 27 21:11:23 2018] Launched synth_1... Run output will be captured here: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/runme.log 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Jan 27 21:11:23 2018] Launched impl_1... Run output will be captured here: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 2101.043 ; gain = 39.281 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 122 MB. Current time: 1/27/18 9:11:27 PM EST
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 42 seconds
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 5000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 1153 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cl, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cl, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cl, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (cl, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (N, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 17 seconds
+// Elapsed time: 11 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// bs (cl):  Export Hardware : addNotify
+// Tcl Message: file copy -force C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/impl_1/design_1_wrapper.sysdef C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper.hdf  
+dismissDialog("Export Hardware"); // bs (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cl, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cl, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (cl, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 12 seconds
+dismissDialog("Launch SDK"); // aa (cl)
+// bs (cl):  Launch SDK : addNotify
+// Tcl Message: launch_sdk -workspace C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk -hwspec C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk -hwspec C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+dismissDialog("Launch SDK"); // bs (cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_1_100M_mb_reset 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 121 MB. Current time: 1/27/18 9:41:27 PM EST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 121 MB. Current time: 1/27/18 10:11:28 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 119 MB. Current time: 1/27/18 10:41:29 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 120 MB. Current time: 1/27/18 11:11:28 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 119 MB. Current time: 1/27/18 11:41:28 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 120 MB. Current time: 1/28/18 12:11:28 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 120 MB. Current time: 1/28/18 12:41:28 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 119 MB. Current time: 1/28/18 1:11:28 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 120 MB. Current time: 1/28/18 1:41:28 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 119 MB. Current time: 1/28/18 2:11:29 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 121 MB. Current time: 1/28/18 2:41:29 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 119 MB. Current time: 1/28/18 3:11:29 AM EST
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 121 MB. Current time: 1/28/18 10:28:12 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 120 MB. Current time: 1/28/18 10:58:09 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 120 MB. Current time: 1/28/18 11:28:08 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 121 MB. Current time: 1/28/18 11:58:09 AM EST

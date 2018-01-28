@@ -2,8 +2,8 @@
 # Vivado v2017.3.1 (64-bit)
 # SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
 # IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
-# Start of session at: Thu Nov  9 23:35:37 2017
-# Process ID: 14764
+# Start of session at: Sat Jan 27 21:11:35 2018
+# Process ID: 7052
 # Current directory: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/design_1_wrapper.vds
@@ -15,93 +15,101 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Thomas/Documents/Git
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
 WARNING: [IP_Flow 19-3664] IP 'design_1_dlmb_v10_0' generated file not found 'c:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/stats.txt'. Please regenerate to continue.
 WARNING: [IP_Flow 19-3664] IP 'design_1_ilmb_v10_0' generated file not found 'c:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/stats.txt'. Please regenerate to continue.
-add_files: Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 289.492 ; gain = 52.262
+add_files: Time (s): cpu = 00:00:31 ; elapsed = 00:00:39 . Memory (MB): peak = 288.457 ; gain = 59.273
 Command: synth_design -top design_1_wrapper -part xc7s50csga324-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 8144 
+INFO: Helper process launched with PID 15768 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 393.508 ; gain = 95.063
+Starting RTL Elaboration : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 400.652 ; gain = 105.082
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-638] synthesizing module 'design_1' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_1' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_0_1' (1#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_gpio_0_1_stub.v:6]
-WARNING: [Synth 8-350] instance 'axi_gpio_0' of module 'design_1_axi_gpio_0_1' requires 23 connections, but only 22 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:259]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_1_0' (2#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_2_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_gpio_2_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_2_0' (3#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_gpio_2_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_3_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_gpio_3_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_3_0' (4#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_gpio_3_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_uartlite_0_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_uartlite_0_0' (5#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_clk_wiz_1_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-256] done synthesizing module 'design_1_clk_wiz_1_0' (6#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-638] synthesizing module 'design_1_mdm_1_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_mdm_1_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_mdm_1_0' (7#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_mdm_1_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'mdm_1' of module 'design_1_mdm_1_0' requires 30 connections, but only 29 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:379]
-INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_0' (8#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_axi_intc_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_microblaze_0_axi_intc_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_axi_intc_0' (9#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_microblaze_0_axi_intc_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_axi_periph_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:687]
-INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_8RVYHO' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:1809]
-INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_8RVYHO' (10#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:1809]
-INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_1UTB3Y5' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:1941]
-INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_1UTB3Y5' (11#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:1941]
-INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_7ANRHB' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2073]
-INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_7ANRHB' (12#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2073]
-INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_1W07O72' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2205]
-INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_1W07O72' (13#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2205]
-INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_5LX7BU' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2337]
-INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_5LX7BU' (14#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2337]
-INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_1XR4ZAZ' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2469]
-INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_1XR4ZAZ' (15#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2469]
-INFO: [Synth 8-638] synthesizing module 'm06_couplers_imp_4YOIXL' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2601]
-INFO: [Synth 8-256] done synthesizing module 'm06_couplers_imp_4YOIXL' (16#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2601]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1RZP34U' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2967]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1RZP34U' (17#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2967]
-INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_xbar_0' (18#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_xbar_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'xbar' of module 'design_1_xbar_0' requires 40 connections, but only 38 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:1768]
-INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_axi_periph_0' (19#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:687]
-INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2733]
-INFO: [Synth 8-638] synthesizing module 'design_1_dlmb_bram_if_cntlr_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_dlmb_bram_if_cntlr_0' (20#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_dlmb_v10_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_dlmb_v10_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_dlmb_v10_0' (21#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_dlmb_v10_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'design_1_dlmb_v10_0' requires 25 connections, but only 24 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2879]
-INFO: [Synth 8-638] synthesizing module 'design_1_ilmb_bram_if_cntlr_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_ilmb_bram_if_cntlr_0' (22#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_ilmb_v10_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_ilmb_v10_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_ilmb_v10_0' (23#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_ilmb_v10_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'design_1_ilmb_v10_0' requires 25 connections, but only 24 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2925]
-INFO: [Synth 8-638] synthesizing module 'design_1_lmb_bram_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_lmb_bram_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_lmb_bram_0' (24#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_lmb_bram_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'lmb_bram' of module 'design_1_lmb_bram_0' requires 16 connections, but only 14 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2950]
-INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' (25#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2733]
-INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_xlconcat_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_microblaze_0_xlconcat_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_xlconcat_0' (26#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_microblaze_0_xlconcat_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'design_1_rst_clk_wiz_1_100M_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_rst_clk_wiz_1_100M_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_rst_clk_wiz_1_100M_0' (27#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_rst_clk_wiz_1_100M_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'rst_clk_wiz_1_100M' of module 'design_1_rst_clk_wiz_1_100M_0' requires 10 connections, but only 9 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:673]
-INFO: [Synth 8-638] synthesizing module 'design_1_xlconstant_0_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_xlconstant_0_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1_xlconstant_0_0' (28#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/realtime/design_1_xlconstant_0_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'design_1' (29#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_1' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_0_1' (1#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_0_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_gpio_0' of module 'design_1_axi_gpio_0_1' requires 23 connections, but only 22 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:280]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_1_0' (2#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_2_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_2_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_2_0' (3#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_2_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_3_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_3_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_3_0' (4#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_3_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_4_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_4_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_4_0' (5#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_gpio_4_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_uartlite_0_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_uartlite_0_0' (6#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_wiz_1_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_1_clk_wiz_1_0' (7#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'design_1_mdm_1_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_mdm_1_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mdm_1_0' (8#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_mdm_1_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'mdm_1' of module 'design_1_mdm_1_0' requires 30 connections, but only 29 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:421]
+INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_0' (9#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_axi_intc_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_microblaze_0_axi_intc_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_axi_intc_0' (10#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_microblaze_0_axi_intc_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_axi_periph_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:748]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_8RVYHO' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2002]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_8RVYHO' (11#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2002]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_1UTB3Y5' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2134]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_1UTB3Y5' (12#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2134]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_7ANRHB' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2266]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_7ANRHB' (13#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2266]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_1W07O72' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2398]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_1W07O72' (14#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2398]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_5LX7BU' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2530]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_5LX7BU' (15#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2530]
+INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_1XR4ZAZ' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2662]
+INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_1XR4ZAZ' (16#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2662]
+INFO: [Synth 8-638] synthesizing module 'm06_couplers_imp_4YOIXL' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2794]
+INFO: [Synth 8-256] done synthesizing module 'm06_couplers_imp_4YOIXL' (17#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2794]
+INFO: [Synth 8-638] synthesizing module 'm07_couplers_imp_1YO2N20' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2926]
+INFO: [Synth 8-256] done synthesizing module 'm07_couplers_imp_1YO2N20' (18#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:2926]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1RZP34U' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:3292]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1RZP34U' (19#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:3292]
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xbar_0' (20#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_xbar_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'xbar' of module 'design_1_xbar_0' requires 40 connections, but only 38 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:1961]
+INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_axi_periph_0' (21#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:748]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:3058]
+INFO: [Synth 8-638] synthesizing module 'design_1_dlmb_bram_if_cntlr_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_dlmb_bram_if_cntlr_0' (22#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_dlmb_v10_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_dlmb_v10_0' (23#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'design_1_dlmb_v10_0' requires 25 connections, but only 24 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:3204]
+INFO: [Synth 8-638] synthesizing module 'design_1_ilmb_bram_if_cntlr_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ilmb_bram_if_cntlr_0' (24#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_ilmb_v10_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ilmb_v10_0' (25#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'design_1_ilmb_v10_0' requires 25 connections, but only 24 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:3250]
+INFO: [Synth 8-638] synthesizing module 'design_1_lmb_bram_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_lmb_bram_0' (26#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_lmb_bram_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'lmb_bram' of module 'design_1_lmb_bram_0' requires 16 connections, but only 14 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:3275]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' (27#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:3058]
+INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_xlconcat_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_microblaze_0_xlconcat_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_xlconcat_0' (28#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_microblaze_0_xlconcat_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_clk_wiz_1_100M_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_rst_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_rst_clk_wiz_1_100M_0' (29#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_rst_clk_wiz_1_100M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_clk_wiz_1_100M' of module 'design_1_rst_clk_wiz_1_100M_0' requires 10 connections, but only 9 given [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:734]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlconstant_0_0' [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_xlconstant_0_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xlconstant_0_0' (30#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/realtime/design_1_xlconstant_0_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (31#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/synth/design_1.v:13]
 INFO: [Synth 8-638] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:22655]
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-256] done synthesizing module 'IOBUF' (30#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:22655]
-INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (31#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-256] done synthesizing module 'IOBUF' (32#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:22655]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (33#1) [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 WARNING: [Synth 8-3331] design s00_couplers_imp_1RZP34U has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design s00_couplers_imp_1RZP34U has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design s00_couplers_imp_1RZP34U has unconnected port S_ACLK
 WARNING: [Synth 8-3331] design s00_couplers_imp_1RZP34U has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m07_couplers_imp_1YO2N20 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m07_couplers_imp_1YO2N20 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m07_couplers_imp_1YO2N20 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m07_couplers_imp_1YO2N20 has unconnected port S_ARESETN
 WARNING: [Synth 8-3331] design m06_couplers_imp_4YOIXL has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design m06_couplers_imp_4YOIXL has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design m06_couplers_imp_4YOIXL has unconnected port S_ACLK
@@ -131,7 +139,7 @@ WARNING: [Synth 8-3331] design m00_couplers_imp_8RVYHO has unconnected port M_AR
 WARNING: [Synth 8-3331] design m00_couplers_imp_8RVYHO has unconnected port S_ACLK
 WARNING: [Synth 8-3331] design m00_couplers_imp_8RVYHO has unconnected port S_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 435.965 ; gain = 137.520
+Finished RTL Elaboration : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 453.387 ; gain = 157.816
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -141,53 +149,55 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 435.965 ; gain = 137.520
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 453.387 ; gain = 157.816
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Device 21-403] Loading part xc7s50csga324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp37/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp37/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp39/design_1_microblaze_0_axi_intc_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_intc'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp39/design_1_microblaze_0_axi_intc_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_intc'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp41/design_1_microblaze_0_xlconcat_0_in_context.xdc] for cell 'design_1_i/microblaze_0_xlconcat'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp41/design_1_microblaze_0_xlconcat_0_in_context.xdc] for cell 'design_1_i/microblaze_0_xlconcat'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp43/design_1_mdm_1_0_in_context.xdc] for cell 'design_1_i/mdm_1'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp43/design_1_mdm_1_0_in_context.xdc] for cell 'design_1_i/mdm_1'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp45/design_1_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp45/design_1_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp47/design_1_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp47/design_1_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp49/design_1_xlconstant_0_0_in_context.xdc] for cell 'design_1_i/xlconstant_0'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp49/design_1_xlconstant_0_0_in_context.xdc] for cell 'design_1_i/xlconstant_0'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp51/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp51/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp53/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp53/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp55/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_periph/xbar'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp55/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_periph/xbar'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp57/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp57/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp59/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp59/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp61/design_1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp61/design_1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp63/design_1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp63/design_1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp65/design_1_lmb_bram_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp65/design_1_lmb_bram_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp67/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp67/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp69/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_2'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp69/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_2'
-Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp71/design_1_axi_gpio_3_0_in_context.xdc] for cell 'design_1_i/axi_gpio_3'
-Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp71/design_1_axi_gpio_3_0_in_context.xdc] for cell 'design_1_i/axi_gpio_3'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp39/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp39/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp41/design_1_microblaze_0_axi_intc_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_intc'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp41/design_1_microblaze_0_axi_intc_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_intc'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp43/design_1_microblaze_0_xlconcat_0_in_context.xdc] for cell 'design_1_i/microblaze_0_xlconcat'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp43/design_1_microblaze_0_xlconcat_0_in_context.xdc] for cell 'design_1_i/microblaze_0_xlconcat'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp45/design_1_mdm_1_0_in_context.xdc] for cell 'design_1_i/mdm_1'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp45/design_1_mdm_1_0_in_context.xdc] for cell 'design_1_i/mdm_1'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp47/design_1_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp47/design_1_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp49/design_1_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp49/design_1_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp51/design_1_xlconstant_0_0_in_context.xdc] for cell 'design_1_i/xlconstant_0'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp51/design_1_xlconstant_0_0_in_context.xdc] for cell 'design_1_i/xlconstant_0'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp53/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp53/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp55/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp55/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp57/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp57/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp59/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp59/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp61/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp61/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp63/design_1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp63/design_1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp65/design_1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp65/design_1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp67/design_1_lmb_bram_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp67/design_1_lmb_bram_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp69/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp69/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp71/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_2'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp71/design_1_axi_gpio_2_0_in_context.xdc] for cell 'design_1_i/axi_gpio_2'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp73/design_1_axi_gpio_3_0_in_context.xdc] for cell 'design_1_i/axi_gpio_3'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp73/design_1_axi_gpio_3_0_in_context.xdc] for cell 'design_1_i/axi_gpio_3'
+Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp75/design_1_axi_gpio_4_0_in_context.xdc] for cell 'design_1_i/axi_gpio_4'
+Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp75/design_1_axi_gpio_4_0_in_context.xdc] for cell 'design_1_i/axi_gpio_4'
 Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc]
-INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_clk_out1_design_1_clk_wiz_1_0' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc:26]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_clk_out1_design_1_clk_wiz_1_0' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc:4]
 Finished Parsing XDC File [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -199,28 +209,29 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 11 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 11 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 706.406 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 757.063 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_1_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:30 ; elapsed = 00:01:40 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Constraint Validation : Time (s): cpu = 00:01:40 ; elapsed = 00:01:54 . Memory (MB): peak = 757.063 ; gain = 461.492
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s50csga324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:30 ; elapsed = 00:01:40 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:40 ; elapsed = 00:01:54 . Memory (MB): peak = 757.063 ; gain = 461.492
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp45/design_1_clk_wiz_1_0_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-14764-Thomas-labtop/dcp45/design_1_clk_wiz_1_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp47/design_1_clk_wiz_1_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/.Xil/Vivado-7052-Thomas-labtop/dcp47/design_1_clk_wiz_1_0_in_context.xdc, line 4).
 Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_1. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_2. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_4. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/clk_wiz_1. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/mdm_1. (constraint file  auto generated constraint, line ).
@@ -237,10 +248,10 @@ Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_xlconcat. (co
 Applied set_property DONT_TOUCH = true for design_1_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:30 ; elapsed = 00:01:41 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:40 ; elapsed = 00:01:55 . Memory (MB): peak = 757.063 ; gain = 461.492
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:31 ; elapsed = 00:01:42 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:42 ; elapsed = 00:01:56 . Memory (MB): peak = 757.063 ; gain = 461.492
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -288,10 +299,12 @@ WARNING: [Synth 8-3331] design design_1_microblaze_0_axi_periph_0 has unconnecte
 WARNING: [Synth 8-3331] design design_1_microblaze_0_axi_periph_0 has unconnected port M05_ARESETN
 WARNING: [Synth 8-3331] design design_1_microblaze_0_axi_periph_0 has unconnected port M06_ACLK
 WARNING: [Synth 8-3331] design design_1_microblaze_0_axi_periph_0 has unconnected port M06_ARESETN
+WARNING: [Synth 8-3331] design design_1_microblaze_0_axi_periph_0 has unconnected port M07_ACLK
+WARNING: [Synth 8-3331] design design_1_microblaze_0_axi_periph_0 has unconnected port M07_ARESETN
 WARNING: [Synth 8-3331] design design_1_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design design_1_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:34 ; elapsed = 00:01:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:45 ; elapsed = 00:02:00 . Memory (MB): peak = 757.063 ; gain = 461.492
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -309,13 +322,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/microblaze_0_l
 INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
 INFO: [Synth 8-5819] Moved 5 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:26 ; elapsed = 00:02:40 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:38 ; elapsed = 00:02:56 . Memory (MB): peak = 758.180 ; gain = 462.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:27 ; elapsed = 00:02:40 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Timing Optimization : Time (s): cpu = 00:02:39 ; elapsed = 00:02:56 . Memory (MB): peak = 758.402 ; gain = 462.832
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -327,7 +340,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:27 ; elapsed = 00:02:40 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Technology Mapping : Time (s): cpu = 00:02:39 ; elapsed = 00:02:56 . Memory (MB): peak = 769.172 ; gain = 473.602
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -351,7 +364,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:31 ; elapsed = 00:02:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished IO Insertion : Time (s): cpu = 00:02:44 ; elapsed = 00:03:01 . Memory (MB): peak = 769.172 ; gain = 473.602
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -364,7 +377,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:31 ; elapsed = 00:02:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:44 ; elapsed = 00:03:01 . Memory (MB): peak = 769.172 ; gain = 473.602
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -376,25 +389,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:31 ; elapsed = 00:02:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:44 ; elapsed = 00:03:02 . Memory (MB): peak = 769.172 ; gain = 473.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:31 ; elapsed = 00:02:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:44 ; elapsed = 00:03:02 . Memory (MB): peak = 769.172 ; gain = 473.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:31 ; elapsed = 00:02:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:44 ; elapsed = 00:03:02 . Memory (MB): peak = 769.172 ; gain = 473.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:31 ; elapsed = 00:02:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:44 ; elapsed = 00:03:02 . Memory (MB): peak = 769.172 ; gain = 473.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -409,19 +422,20 @@ Report BlackBoxes:
 |3     |design_1_axi_gpio_1_0            |         1|
 |4     |design_1_axi_gpio_2_0            |         1|
 |5     |design_1_axi_gpio_3_0            |         1|
-|6     |design_1_axi_uartlite_0_0        |         1|
-|7     |design_1_clk_wiz_1_0             |         1|
-|8     |design_1_mdm_1_0                 |         1|
-|9     |design_1_microblaze_0_0          |         1|
-|10    |design_1_microblaze_0_axi_intc_0 |         1|
-|11    |design_1_microblaze_0_xlconcat_0 |         1|
-|12    |design_1_rst_clk_wiz_1_100M_0    |         1|
-|13    |design_1_xlconstant_0_0          |         1|
-|14    |design_1_dlmb_bram_if_cntlr_0    |         1|
-|15    |design_1_dlmb_v10_0              |         1|
-|16    |design_1_ilmb_bram_if_cntlr_0    |         1|
-|17    |design_1_ilmb_v10_0              |         1|
-|18    |design_1_lmb_bram_0              |         1|
+|6     |design_1_axi_gpio_4_0            |         1|
+|7     |design_1_axi_uartlite_0_0        |         1|
+|8     |design_1_clk_wiz_1_0             |         1|
+|9     |design_1_mdm_1_0                 |         1|
+|10    |design_1_microblaze_0_0          |         1|
+|11    |design_1_microblaze_0_axi_intc_0 |         1|
+|12    |design_1_microblaze_0_xlconcat_0 |         1|
+|13    |design_1_rst_clk_wiz_1_100M_0    |         1|
+|14    |design_1_xlconstant_0_0          |         1|
+|15    |design_1_dlmb_bram_if_cntlr_0    |         1|
+|16    |design_1_dlmb_v10_0              |         1|
+|17    |design_1_ilmb_bram_if_cntlr_0    |         1|
+|18    |design_1_ilmb_v10_0              |         1|
+|19    |design_1_lmb_bram_0              |         1|
 +------+---------------------------------+----------+
 
 Report Cell Usage: 
@@ -432,42 +446,43 @@ Report Cell Usage:
 |2     |design_1_axi_gpio_1_0            |     1|
 |3     |design_1_axi_gpio_2_0            |     1|
 |4     |design_1_axi_gpio_3_0            |     1|
-|5     |design_1_axi_uartlite_0_0        |     1|
-|6     |design_1_clk_wiz_1_0             |     1|
-|7     |design_1_dlmb_bram_if_cntlr_0    |     1|
-|8     |design_1_dlmb_v10_0              |     1|
-|9     |design_1_ilmb_bram_if_cntlr_0    |     1|
-|10    |design_1_ilmb_v10_0              |     1|
-|11    |design_1_lmb_bram_0              |     1|
-|12    |design_1_mdm_1_0                 |     1|
-|13    |design_1_microblaze_0_0          |     1|
-|14    |design_1_microblaze_0_axi_intc_0 |     1|
-|15    |design_1_microblaze_0_xlconcat_0 |     1|
-|16    |design_1_rst_clk_wiz_1_100M_0    |     1|
-|17    |design_1_xbar_0                  |     1|
-|18    |design_1_xlconstant_0_0          |     1|
-|19    |IBUF                             |     2|
-|20    |IOBUF                            |    11|
-|21    |OBUF                             |     1|
+|5     |design_1_axi_gpio_4_0            |     1|
+|6     |design_1_axi_uartlite_0_0        |     1|
+|7     |design_1_clk_wiz_1_0             |     1|
+|8     |design_1_dlmb_bram_if_cntlr_0    |     1|
+|9     |design_1_dlmb_v10_0              |     1|
+|10    |design_1_ilmb_bram_if_cntlr_0    |     1|
+|11    |design_1_ilmb_v10_0              |     1|
+|12    |design_1_lmb_bram_0              |     1|
+|13    |design_1_mdm_1_0                 |     1|
+|14    |design_1_microblaze_0_0          |     1|
+|15    |design_1_microblaze_0_axi_intc_0 |     1|
+|16    |design_1_microblaze_0_xlconcat_0 |     1|
+|17    |design_1_rst_clk_wiz_1_100M_0    |     1|
+|18    |design_1_xbar_0                  |     1|
+|19    |design_1_xlconstant_0_0          |     1|
+|20    |IBUF                             |     6|
+|21    |IOBUF                            |    11|
+|22    |OBUF                             |     1|
 +------+---------------------------------+------+
 
 Report Instance Areas: 
 +------+------------------------------+--------------------------------------+------+
 |      |Instance                      |Module                                |Cells |
 +------+------------------------------+--------------------------------------+------+
-|1     |top                           |                                      |  1919|
-|2     |  design_1_i                  |design_1                              |  1905|
-|3     |    microblaze_0_axi_periph   |design_1_microblaze_0_axi_periph_0    |   818|
+|1     |top                           |                                      |  2075|
+|2     |  design_1_i                  |design_1                              |  2057|
+|3     |    microblaze_0_axi_periph   |design_1_microblaze_0_axi_periph_0    |   929|
 |4     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_1K0VQXK |   496|
 +------+------------------------------+--------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:31 ; elapsed = 00:02:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:44 ; elapsed = 00:03:02 . Memory (MB): peak = 769.172 ; gain = 473.602
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:31 ; elapsed = 00:02:10 . Memory (MB): peak = 706.406 ; gain = 137.520
-Synthesis Optimization Complete : Time (s): cpu = 00:02:32 ; elapsed = 00:02:45 . Memory (MB): peak = 706.406 ; gain = 407.961
+Synthesis finished with 0 errors, 0 critical warnings and 18 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:36 ; elapsed = 00:02:18 . Memory (MB): peak = 769.172 ; gain = 169.926
+Synthesis Optimization Complete : Time (s): cpu = 00:02:45 ; elapsed = 00:03:02 . Memory (MB): peak = 769.172 ; gain = 473.602
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -476,10 +491,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   IOBUF => IOBUF (IBUF, OBUFT): 11 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-86 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
+90 Infos, 64 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:37 ; elapsed = 00:02:56 . Memory (MB): peak = 709.293 ; gain = 419.801
+synth_design: Time (s): cpu = 00:02:53 ; elapsed = 00:03:16 . Memory (MB): peak = 778.613 ; gain = 490.156
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 709.293 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Nov  9 23:39:44 2017...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 778.613 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 27 21:16:07 2018...

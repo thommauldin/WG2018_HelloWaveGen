@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# 
+# Start of session at: Sun Jan 28 10:29:36 2018
+# Process ID: 18760
+# Current directory: c:/Users/Thomas/Documents/GitHub/Hello_World3
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2017.3/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.mmi -data C:/Xilinx/SDK/2017.3/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -out C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper_hw_platform_0/download.bit -force
+# Log file: c:/Users/Thomas/Documents/GitHub/Hello_World3/updatemem.log
+# Journal file: c:/Users/Thomas/Documents/GitHub/Hello_World3\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2017.3/scripts/updatemem/main.tcl -notrace
+ Loading bitfile C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper_hw_platform_0/download.bit...
+  update_mem: Time (s): cpu = 00:00:56 ; elapsed = 00:01:08 . Memory (MB): peak = 511.934 ; gain = 452.266
+INFO: [Common 17-206] Exiting updatemem at Sun Jan 28 10:30:45 2018...
