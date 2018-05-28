@@ -1,8 +1,8 @@
 //Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2017.3.1 (win64) Build 2035080 Fri Oct 20 14:20:01 MDT 2017
-//Date        : Sat Jan 27 21:11:05 2018
-//Host        : Thomas-labtop running 64-bit major release  (build 9200)
+//Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+//Date        : Mon Mar  5 19:03:51 2018
+//Host        : Thomas-Laptop running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
 //Purpose     : IP block netlist
@@ -13,7 +13,7 @@ module design_1_wrapper
    (e_tri_io,
     lcd_data_tri_io,
     push_buttons_4bits_tri_i,
-    reset_0,
+    reset,
     rs_tri_io,
     rw_tri_io,
     sys_clock,
@@ -22,7 +22,7 @@ module design_1_wrapper
   inout [0:0]e_tri_io;
   inout [7:0]lcd_data_tri_io;
   input [3:0]push_buttons_4bits_tri_i;
-  input reset_0;
+  input reset;
   inout [0:0]rs_tri_io;
   inout [0:0]rw_tri_io;
   input sys_clock;
@@ -66,7 +66,7 @@ module design_1_wrapper
   wire [6:6]lcd_data_tri_t_6;
   wire [7:7]lcd_data_tri_t_7;
   wire [3:0]push_buttons_4bits_tri_i;
-  wire reset_0;
+  wire reset;
   wire [0:0]rs_tri_i_0;
   wire [0:0]rs_tri_io_0;
   wire [0:0]rs_tri_o_0;
@@ -87,7 +87,7 @@ module design_1_wrapper
         .lcd_data_tri_o({lcd_data_tri_o_7,lcd_data_tri_o_6,lcd_data_tri_o_5,lcd_data_tri_o_4,lcd_data_tri_o_3,lcd_data_tri_o_2,lcd_data_tri_o_1,lcd_data_tri_o_0}),
         .lcd_data_tri_t({lcd_data_tri_t_7,lcd_data_tri_t_6,lcd_data_tri_t_5,lcd_data_tri_t_4,lcd_data_tri_t_3,lcd_data_tri_t_2,lcd_data_tri_t_1,lcd_data_tri_t_0}),
         .push_buttons_4bits_tri_i(push_buttons_4bits_tri_i),
-        .reset_0(reset_0),
+        .reset(reset),
         .rs_tri_i(rs_tri_i_0),
         .rs_tri_o(rs_tri_o_0),
         .rs_tri_t(rs_tri_t_0),

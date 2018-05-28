@@ -1,75 +1,15 @@
 #-----------------------------------------------------------
-# Vivado v2017.3.1 (64-bit)
-# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
-# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
-# Start of session at: Sat Jan 27 20:06:09 2018
-# Process ID: 10644
-# Current directory: C:/Users/Thomas/Documents/GitHub/Hello_World3
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14984 C:\Users\Thomas\Documents\GitHub\Hello_World3\Hello_World3.xpr
-# Log file: C:/Users/Thomas/Documents/GitHub/Hello_World3/vivado.log
-# Journal file: C:/Users/Thomas/Documents/GitHub/Hello_World3\vivado.jou
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar 27 19:19:58 2018
+# Process ID: 5648
+# Current directory: C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10372 C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.xpr
+# Log file: C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/vivado.log
+# Journal file: C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.xpr
+open_project C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.xpr
 update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files C:/Users/Thomas/Downloads/hd44780_111/hd44780.h] -no_script -reset -force -quiet
-remove_files  C:/Users/Thomas/Downloads/hd44780_111/hd44780.h
-export_ip_user_files -of_objects  [get_files C:/Users/Thomas/Downloads/hd44780_111/hd44780_settings.h] -no_script -reset -force -quiet
-remove_files  C:/Users/Thomas/Downloads/hd44780_111/hd44780_settings.h
-open_bd_design {C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd}
-set_property name e [get_bd_intf_ports gpio_rtl_0]
-set_property name rs [get_bd_intf_ports gpio_rtl_1]
-set_property name lcd_data [get_bd_intf_ports gpio_rtl_2]
-set_property name rw [get_bd_intf_ports gpio_rtl]
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_4
-endgroup
-startgroup
-apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "reset ( System Reset ) " }  [get_bd_pins clk_wiz_1/reset]
-apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Periph)" intc_ip "/microblaze_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_4/S_AXI]
-apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "dip_switches_4bits ( 4 Switches ) " }  [get_bd_intf_pins axi_gpio_4/GPIO]
-endgroup
-startgroup
-set_property -dict [list CONFIG.GPIO_BOARD_INTERFACE {push_buttons_4bits}] [get_bd_cells axi_gpio_4]
-endgroup
-startgroup
-endgroup
-startgroup
-endgroup
-save_bd_design
-reset_run synth_1
-reset_run design_1_xbar_0_synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-delete_bd_objs [get_bd_nets reset_1]
-apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "reset ( System Reset ) " }  [get_bd_pins rst_clk_wiz_1_100M/ext_reset_in]
-delete_bd_objs [get_bd_ports reset]
-validate_bd_design
-save_bd_design
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-open_run impl_1
-set_property IOSTANDARD LVCMOS33 [get_ports [list {e_tri_io[0]}]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list {rs_tri_io[0]}]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list {rw_tri_io[0]}]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list {lcd_data_tri_io[7]} {lcd_data_tri_io[6]} {lcd_data_tri_io[5]} {lcd_data_tri_io[4]} {lcd_data_tri_io[3]} {lcd_data_tri_io[2]} {lcd_data_tri_io[1]} {lcd_data_tri_io[0]}]]
-place_ports {e_tri_io[0]} U11
-place_ports {rs_tri_io[0]} T11
-place_ports {rw_tri_io[0]} R11
-place_ports {lcd_data_tri_io[0]} L13
-place_ports {lcd_data_tri_io[1]} N13
-place_ports {lcd_data_tri_io[2]} R14
-place_ports {lcd_data_tri_io[3]} T14
-place_ports {lcd_data_tri_io[4]} R16
-place_ports {lcd_data_tri_io[5]} R17
-place_ports {lcd_data_tri_io[6]} V17
-place_ports {lcd_data_tri_io[7]} R15
-save_constraints
-open_bd_design {C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/design_1.bd}
-set_property name push_buttons_4bits [get_bd_intf_ports dip_switches_4bits]
-save_bd_design
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-file copy -force C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.runs/impl_1/design_1_wrapper.sysdef C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper.hdf
-
-launch_sdk -workspace C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk -hwspec C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/design_1_wrapper.hdf
+launch_sdk -workspace C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf

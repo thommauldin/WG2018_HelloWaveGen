@@ -890,3 +890,1352 @@ com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
 10:37:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
 10:37:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
 10:37:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:07:45 INFO  : Registering command handlers for SDK TCF services
+21:07:46 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+21:07:49 INFO  : XSCT server has started successfully.
+21:07:49 INFO  : Successfully done setting XSCT server connection channel  
+21:07:50 INFO  : Successfully done setting SDK workspace  
+21:07:50 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+21:09:43 INFO  : Registering command handlers for SDK TCF services
+21:09:44 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+21:09:46 INFO  : XSCT server has started successfully.
+21:09:46 INFO  : Successfully done setting XSCT server connection channel  
+21:09:47 INFO  : Successfully done setting SDK workspace  
+21:09:47 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+21:09:47 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+21:14:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:14:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:14:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:14:48 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:18:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:18:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:18:41 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:20:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:20:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:21:00 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:22:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:22:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:22:13 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:29:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:29:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:34:31 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:38:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:38:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:38:14 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:40:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:40:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:40:23 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:43:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:43:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:43:22 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:44:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:44:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:44:59 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:50:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:50:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:50:31 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:56:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:56:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:56:19 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:09:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:09:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:09:39 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:11:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:11:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:11:31 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:14:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:14:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:14:45 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:20:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:20:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:20:32 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:21:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:21:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:21:36 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:31:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:31:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:31:51 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:34:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:34:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:34:35 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:37:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:37:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:37:06 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:40:43 WARN  : Given IPC port value is invalid. Using default port 2350
+22:40:43 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+22:40:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:41:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:41:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+22:41:24 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+22:42:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:29 INFO  : Processor reset is completed for microblaze_0
+22:42:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:42:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:40 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:45:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:42 INFO  : Processor reset is completed for microblaze_0
+22:45:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:45:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:46:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:33 INFO  : Processor reset is completed for microblaze_0
+22:46:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:48:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:47 INFO  : Processor reset is completed for microblaze_0
+22:48:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:48:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:50:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:19 INFO  : Processor reset is completed for microblaze_0
+22:50:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:50:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:30 INFO  : Processor reset is completed for microblaze_0
+22:50:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:50:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:57:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:08 INFO  : Processor reset is completed for microblaze_0
+22:57:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:57:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:58:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:58:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:58:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:58:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:58:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:58:33 INFO  : Processor reset is completed for microblaze_0
+22:58:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:58:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:01:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:01:11 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:01:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:01:12 INFO  : Processor reset is completed for microblaze_0
+23:01:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:03:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:03:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:03:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:03:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:10:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:32 INFO  : Processor reset is completed for microblaze_0
+23:10:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:10:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:12:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:12:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:12:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:12:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:12:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:12:53 INFO  : Processor reset is completed for microblaze_0
+23:12:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:12:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:15:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:15:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:15:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:15:24 INFO  : Processor reset is completed for microblaze_0
+23:15:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:30 INFO  : Processor reset is completed for microblaze_0
+23:17:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:17:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:19:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:19:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:19:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:19:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:20:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:20:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:20:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:20:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:20:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:20:14 INFO  : Processor reset is completed for microblaze_0
+23:20:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:20:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:29 INFO  : Processor reset is completed for microblaze_0
+23:23:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:23:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:32:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:32:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:32:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:32:52 INFO  : Processor reset is completed for microblaze_0
+23:32:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:36:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:36:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:36:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:36:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:38:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:38:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:38:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:38:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:38:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:38:51 INFO  : Processor reset is completed for microblaze_0
+23:38:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:38:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:39 INFO  : Processor reset is completed for microblaze_0
+23:49:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:49:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:53:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:53:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:53:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:53:03 INFO  : Processor reset is completed for microblaze_0
+23:53:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:55:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:55:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:55:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:55:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:20 INFO  : Processor reset is completed for microblaze_0
+23:56:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:46 INFO  : Processor reset is completed for microblaze_0
+23:56:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:56:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:59:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:59:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:59:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:59:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:00:00 INFO  : Processor reset is completed for microblaze_0
+00:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:00:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:02:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:02:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:02:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:02:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:03:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:03:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:03:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:03:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:03:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:03:31 INFO  : Processor reset is completed for microblaze_0
+00:03:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:03:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:24 INFO  : Processor reset is completed for microblaze_0
+00:06:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:06:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:07:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:07:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+00:07:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:17:47 INFO  : Registering command handlers for SDK TCF services
+18:17:48 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+18:17:52 INFO  : XSCT server has started successfully.
+18:17:52 INFO  : Successfully done setting XSCT server connection channel  
+18:17:53 INFO  : Successfully done setting SDK workspace  
+18:17:53 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+18:17:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+20:14:53 INFO  : Registering command handlers for SDK TCF services
+20:14:54 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+20:15:00 INFO  : XSCT server has started successfully.
+20:15:02 INFO  : Successfully done setting XSCT server connection channel  
+20:15:02 INFO  : Successfully done setting SDK workspace  
+20:15:02 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+20:15:02 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+20:35:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:35:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+20:35:31 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+20:35:38 WARN  : Given IPC port value is invalid. Using default port 2350
+20:35:38 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+20:35:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:44 INFO  : Processor reset is completed for microblaze_0
+20:35:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:35:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:56 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:37:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:57 INFO  : Processor reset is completed for microblaze_0
+20:37:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:37:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:41:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:02 INFO  : Processor reset is completed for microblaze_0
+20:41:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:41:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:37 INFO  : Processor reset is completed for microblaze_0
+20:41:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:41:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:01 INFO  : Processor reset is completed for microblaze_0
+20:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:43:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:44:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:44:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:44:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:44:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:44:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:44:43 INFO  : Processor reset is completed for microblaze_0
+20:44:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:44:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:59:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:59:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:59:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:59:59 INFO  : Processor reset is completed for microblaze_0
+21:00:00 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error creating session
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+21:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:27 INFO  : Processor reset is completed for microblaze_0
+21:00:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:28 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error creating session
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+21:00:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:00:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:01:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:01:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:01:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:01:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:01:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:01:08 INFO  : Processor reset is completed for microblaze_0
+21:01:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:01:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:04:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:04:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:04:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:04:51 INFO  : Processor reset is completed for microblaze_0
+21:04:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:14 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:09:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:23 INFO  : Processor reset is completed for microblaze_0
+21:09:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:17:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:17:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:17:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:17:26 INFO  : Processor reset is completed for microblaze_0
+21:17:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:23:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:23:38 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:23:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:23:40 INFO  : Processor reset is completed for microblaze_0
+21:23:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:51:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:51:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:52:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:52:51 INFO  : Processor reset is completed for microblaze_0
+21:52:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:54:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:54:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:55:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:55:09 INFO  : Processor reset is completed for microblaze_0
+21:55:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:56:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:56:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:56:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:56:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:59:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:59:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:59:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:59:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:59:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:59:11 INFO  : Processor reset is completed for microblaze_0
+21:59:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:59:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:06:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:06:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:06:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:06:39 INFO  : Processor reset is completed for microblaze_0
+22:06:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:13:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:13:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:13:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:13:34 INFO  : Processor reset is completed for microblaze_0
+22:13:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:23:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:23:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:23:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:23:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:23:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:58:37 INFO  : Registering command handlers for SDK TCF services
+16:58:38 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+16:58:42 INFO  : XSCT server has started successfully.
+16:58:44 INFO  : Successfully done setting XSCT server connection channel  
+16:58:44 INFO  : Successfully done setting SDK workspace  
+16:58:44 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+16:58:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+17:16:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:17:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:17:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+17:17:03 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+17:17:32 WARN  : Given IPC port value is invalid. Using default port 2350
+17:17:32 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+17:17:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:17:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:17:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:17:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:17:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:17:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:17:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:17:40 INFO  : Processor reset is completed for microblaze_0
+17:17:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:17:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:30:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:30:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:30:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:30:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:55:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:04:28 INFO  : Registering command handlers for SDK TCF services
+13:04:29 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+13:04:32 INFO  : XSCT server has started successfully.
+13:04:33 INFO  : Successfully done setting XSCT server connection channel  
+13:04:33 INFO  : Successfully done setting SDK workspace  
+13:04:33 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+13:04:33 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+13:07:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:07:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:07:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+13:07:46 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+13:10:52 WARN  : Given IPC port value is invalid. Using default port 2350
+13:10:52 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+13:10:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:56 INFO  : Processor reset is completed for microblaze_0
+13:10:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:10:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:14:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:14:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:14:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:14:07 INFO  : Processor reset is completed for microblaze_0
+13:14:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:17:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:17:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:17:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:17:32 INFO  : Processor reset is completed for microblaze_0
+13:17:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:25:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:32:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:32:55 INFO  : Processor reset is completed for microblaze_0
+13:32:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:36:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:36:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:36:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:36:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:36:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:59:50 INFO  : Registering command handlers for SDK TCF services
+14:59:51 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+14:59:56 INFO  : XSCT server has started successfully.
+14:59:56 INFO  : Successfully done setting XSCT server connection channel  
+14:59:57 INFO  : Successfully done setting SDK workspace  
+14:59:57 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+14:59:57 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+15:13:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:14:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:14:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+15:14:35 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+15:14:57 WARN  : Given IPC port value is invalid. Using default port 2350
+15:14:57 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+15:15:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:15:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:15:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:15:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:15:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:15:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:15:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:15:03 INFO  : Processor reset is completed for microblaze_0
+15:15:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:15:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:21:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:21:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:21:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:21:28 INFO  : Processor reset is completed for microblaze_0
+15:21:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:39:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:39:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:39:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:39:27 INFO  : Processor reset is completed for microblaze_0
+15:39:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:48:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:48:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:48:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:48:28 INFO  : Processor reset is completed for microblaze_0
+15:48:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:05:07 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:05:08 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:05:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:05:35 INFO  : Processor reset is completed for microblaze_0
+16:05:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:36:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:36:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:37:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:37:29 INFO  : Processor reset is completed for microblaze_0
+16:37:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:41:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:41:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:41:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:41:04 INFO  : Processor reset is completed for microblaze_0
+16:41:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:52:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:52:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:52:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:52:25 INFO  : Processor reset is completed for microblaze_0
+16:52:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:34:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:34:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:34:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:34:57 INFO  : Processor reset is completed for microblaze_0
+17:34:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:38:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:38:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:38:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:38:09 INFO  : Processor reset is completed for microblaze_0
+17:38:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:46:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:46:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:46:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:46:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:09 INFO  : Processor reset is completed for microblaze_0
+17:56:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:56:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:05:33 INFO  : Registering command handlers for SDK TCF services
+21:05:34 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+21:05:37 INFO  : XSCT server has started successfully.
+21:05:38 INFO  : Successfully done setting XSCT server connection channel  
+21:05:38 INFO  : Successfully done setting SDK workspace  
+21:05:38 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+21:05:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+21:08:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+21:09:03 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+21:09:17 WARN  : Given IPC port value is invalid. Using default port 2350
+21:09:17 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+21:09:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:23 INFO  : Processor reset is completed for microblaze_0
+21:09:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:09:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:13:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:13:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:13:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+21:13:03 INFO  : Processor reset is completed for microblaze_0
+21:13:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:00:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:00:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:00:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+22:00:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:19:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:00:45 INFO  : Registering command handlers for SDK TCF services
+09:00:46 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+09:00:49 INFO  : XSCT server has started successfully.
+09:00:50 INFO  : Successfully done setting XSCT server connection channel  
+09:00:50 INFO  : Successfully done setting SDK workspace  
+09:00:50 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+09:00:50 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+09:02:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:03:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:03:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+09:03:18 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+09:03:38 WARN  : Given IPC port value is invalid. Using default port 2350
+09:03:38 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+09:03:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:44 INFO  : Processor reset is completed for microblaze_0
+09:03:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:03:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:04:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:04:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:04:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:04:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:04 INFO  : Processor reset is completed for microblaze_0
+09:08:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:11:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:31 INFO  : Processor reset is completed for microblaze_0
+09:11:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:11:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:30 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:19:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:31 INFO  : Processor reset is completed for microblaze_0
+09:19:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:19:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:20:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:52 INFO  : Processor reset is completed for microblaze_0
+09:20:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:52 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:20:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:37 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:25:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:39 INFO  : Processor reset is completed for microblaze_0
+09:25:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:25:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:31:31 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:22 INFO  : Processor reset is completed for microblaze_0
+09:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:32:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:45 INFO  : Processor reset is completed for microblaze_0
+09:33:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:33:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:35:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:35:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:35:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:35:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:15 INFO  : Processor reset is completed for microblaze_0
+09:36:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:36:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:40:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:12 INFO  : Processor reset is completed for microblaze_0
+09:40:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:40:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:27:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:29:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:29:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:29:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:29:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:29:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:29:09 INFO  : Processor reset is completed for microblaze_0
+10:29:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:29:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:40:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:40:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:40:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:40:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:09 INFO  : Processor reset is completed for microblaze_0
+10:48:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:48:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:56:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:56:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:56:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:56:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:56:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:56:34 INFO  : Processor reset is completed for microblaze_0
+10:56:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:56:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:15:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:15:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:15:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:15:04 INFO  : Processor reset is completed for microblaze_0
+11:15:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:17:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:17:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:17:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:17:10 INFO  : Processor reset is completed for microblaze_0
+11:17:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:17:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:17:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:17:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:17:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:17:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:20:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:12 INFO  : Processor reset is completed for microblaze_0
+11:20:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:20:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:39:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:44 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:39:45 INFO  : Processor reset is completed for microblaze_0
+11:39:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:44:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:44:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:48:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:48:01 INFO  : Processor reset is completed for microblaze_0
+11:48:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:11:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:11:08 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:11:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:11:09 INFO  : Processor reset is completed for microblaze_0
+12:11:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:45:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:45:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:45:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:45:03 INFO  : Processor reset is completed for microblaze_0
+12:45:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:48:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:48:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:48:24 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:48:25 INFO  : Processor reset is completed for microblaze_0
+12:48:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:04:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:04:37 INFO  : Processor reset is completed for microblaze_0
+13:04:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:08 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:10 INFO  : Processor reset is completed for microblaze_0
+13:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:29:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:29:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:29:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:29:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:29:48 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:29:48 INFO  : Processor reset is completed for microblaze_0
+13:29:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:34:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:34:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:34:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:34:59 INFO  : Processor reset is completed for microblaze_0
+13:35:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:09:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:09:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:09:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:09:37 INFO  : Processor reset is completed for microblaze_0
+14:09:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:11:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:11:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:11:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+14:11:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:10:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:10:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:10:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+16:10:58 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+16:11:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:11:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:11:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:11:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:11:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:11:11 INFO  : Processor reset is completed for microblaze_0
+16:11:11 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:11:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:13:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:13:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:13:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:13:25 INFO  : Processor reset is completed for microblaze_0
+16:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:30:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:30:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:30:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:30:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+20:30:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:08:39 INFO  : Registering command handlers for SDK TCF services
+10:08:40 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+10:08:43 INFO  : XSCT server has started successfully.
+10:08:43 INFO  : Successfully done setting XSCT server connection channel  
+10:08:43 INFO  : Successfully done setting SDK workspace  
+10:08:43 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+10:08:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+10:12:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:13:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:13:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+10:13:09 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+10:13:23 WARN  : Given IPC port value is invalid. Using default port 2350
+10:13:23 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+10:13:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:25 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:27 INFO  : Processor reset is completed for microblaze_0
+10:13:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:13:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:03 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:16:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:05 INFO  : Processor reset is completed for microblaze_0
+10:16:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:16:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:43 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:18:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:45 INFO  : Processor reset is completed for microblaze_0
+10:18:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:18:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:20:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:20:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:22:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:22:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:22:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:22:27 INFO  : Processor reset is completed for microblaze_0
+10:22:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:22:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:22:27 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:22:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:22:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:22:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:26:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:28 INFO  : Processor reset is completed for microblaze_0
+10:26:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:26:29 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:28:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:28:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:31:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:31:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:31:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:31:09 INFO  : Processor reset is completed for microblaze_0
+10:31:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:47 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:37:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:49 INFO  : Processor reset is completed for microblaze_0
+10:37:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:50 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:42:59 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:42:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:43:01 INFO  : Processor reset is completed for microblaze_0
+10:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:43:01 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:43:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:43:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:06:42 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:02 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:05 INFO  : Processor reset is completed for microblaze_0
+11:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:08:06 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:13:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:40 INFO  : Processor reset is completed for microblaze_0
+11:13:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:13:41 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:29 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:25:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:33 INFO  : Processor reset is completed for microblaze_0
+11:25:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:25:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:20 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:30:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:22 INFO  : Processor reset is completed for microblaze_0
+11:30:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+11:30:23 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:11:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:11:21 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:11:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+12:11:22 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+16:03:11 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:18:26 INFO  : Registering command handlers for SDK TCF services
+09:18:28 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+09:18:33 INFO  : XSCT server has started successfully.
+09:18:35 INFO  : Successfully done setting XSCT server connection channel  
+09:18:35 INFO  : Successfully done setting SDK workspace  
+09:18:35 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+09:18:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+09:36:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:37:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:37:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+09:37:18 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+09:37:48 WARN  : Given IPC port value is invalid. Using default port 2350
+09:37:48 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+09:37:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:55 INFO  : Processor reset is completed for microblaze_0
+09:37:55 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:37:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:39:45 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:39:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:39:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:39:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:39:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:39:46 INFO  : Processor reset is completed for microblaze_0
+09:39:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:39:51 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:42:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:42:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:42:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:42:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:14 INFO  : Processor reset is completed for microblaze_0
+09:43:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:43:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:44:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:44:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:44:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:44:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:44:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:44:34 INFO  : Processor reset is completed for microblaze_0
+09:44:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:44:38 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:46:34 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:46:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:35 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:36 INFO  : Processor reset is completed for microblaze_0
+09:58:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:36 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+09:58:37 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:00 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:25:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:04 INFO  : Processor reset is completed for microblaze_0
+10:25:04 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:25:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:37:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+10:34:17 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:42:35 INFO  : Registering command handlers for SDK TCF services
+18:42:36 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+18:42:39 INFO  : XSCT server has started successfully.
+18:42:39 INFO  : Successfully done setting XSCT server connection channel  
+18:42:40 INFO  : Successfully done setting SDK workspace  
+18:42:40 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+18:42:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+16:23:00 INFO  : Registering command handlers for SDK TCF services
+16:23:01 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+16:23:04 INFO  : XSCT server has started successfully.
+16:23:04 INFO  : Successfully done setting XSCT server connection channel  
+16:23:05 INFO  : Successfully done setting SDK workspace  
+16:23:05 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+16:23:05 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+14:40:55 INFO  : Registering command handlers for SDK TCF services
+14:40:56 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+14:41:00 INFO  : XSCT server has started successfully.
+14:41:01 INFO  : Successfully done setting XSCT server connection channel  
+14:41:02 INFO  : Successfully done setting SDK workspace  
+14:41:02 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+14:41:02 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+14:53:40 WARN  : Given IPC port value is invalid. Using default port 2350
+14:53:40 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+14:56:31 INFO  : Registering command handlers for SDK TCF services
+14:56:32 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+14:56:35 INFO  : XSCT server has started successfully.
+14:56:36 INFO  : Successfully done setting XSCT server connection channel  
+14:56:36 INFO  : Successfully done setting SDK workspace  
+14:56:36 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+14:56:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+15:01:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:03:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:03:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9EA" && level==0} -index 0' command is executed.
+15:03:27 INFO  : FPGA configured successfully with bitstream "C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper_hw_platform_1/download.bit"
+15:04:22 WARN  : Given IPC port value is invalid. Using default port 2350
+15:04:22 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+15:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:28 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:56 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:57 INFO  : Processor reset is completed for microblaze_0
+15:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:57 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:04:58 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:08:26 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:08:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:10:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:10:32 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:10:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:10:33 INFO  : Processor reset is completed for microblaze_0
+15:10:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:10:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:10:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:10:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:10:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:10:33 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:21:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:21:05 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:22:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:31:54 INFO  : Registering command handlers for SDK TCF services
+13:31:55 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+13:31:58 INFO  : XSCT server has started successfully.
+13:31:58 INFO  : Successfully done setting XSCT server connection channel  
+13:31:59 INFO  : Successfully done setting SDK workspace  
+13:31:59 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+13:31:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+19:21:47 INFO  : Registering command handlers for SDK TCF services
+19:21:48 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\thomm\Documents\GitHub\WG2018_HelloWaveGen\Hello_World3.sdk\temp_xsdb_launch_script.tcl
+19:21:51 INFO  : XSCT server has started successfully.
+19:21:52 INFO  : Successfully done setting XSCT server connection channel  
+19:21:52 INFO  : Successfully done setting SDK workspace  
+19:21:52 INFO  : Processing command line option -hwspec C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/design_1_wrapper.hdf.
+19:21:52 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.

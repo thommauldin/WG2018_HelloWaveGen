@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc rfile:../../../Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc rfile:../../../Hello_World3.srcs/constrs_1/new/LCD_Pinout.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:26 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN U11 [get_ports {e_tri_io[0]}]
 set_property src_info {type:XDC file:1 line:27 export:INPUT save:INPUT read:READ} [current_design]

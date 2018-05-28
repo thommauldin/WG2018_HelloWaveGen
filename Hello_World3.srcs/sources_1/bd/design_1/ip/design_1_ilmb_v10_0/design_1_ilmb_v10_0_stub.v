@@ -1,8 +1,8 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.3.1 (win64) Build 2035080 Fri Oct 20 14:20:01 MDT 2017
-// Date        : Sat Nov  4 15:37:37 2017
-// Host        : Thomas-labtop running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+// Date        : Wed Feb 28 00:11:18 2018
+// Host        : Thomas-Laptop running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub -rename_top design_1_ilmb_v10_0 -prefix
 //               design_1_ilmb_v10_0_ design_1_dlmb_v10_0_stub.v
 // Design      : design_1_dlmb_v10_0
@@ -13,7 +13,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* x_core_info = "lmb_v10,Vivado 2017.3.1" *)
+(* x_core_info = "lmb_v10,Vivado 2017.4" *)
 module design_1_ilmb_v10_0(LMB_Clk, SYS_Rst, LMB_Rst, M_ABus, M_ReadStrobe, 
   M_WriteStrobe, M_AddrStrobe, M_DBus, M_BE, Sl_DBus, Sl_Ready, Sl_Wait, Sl_UE, Sl_CE, LMB_ABus, 
   LMB_ReadStrobe, LMB_WriteStrobe, LMB_AddrStrobe, LMB_ReadDBus, LMB_WriteDBus, LMB_Ready, 

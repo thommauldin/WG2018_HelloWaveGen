@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Webtalk v2017.3.1 (64-bit)
-# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # 
-# Start of session at: Fri Nov 10 00:19:41 2017
-# Process ID: 13348
-# Current directory: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/webtalk
+# Start of session at: Tue Mar  6 00:07:31 2018
+# Process ID: 10976
+# Current directory: C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
-# Log file: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/webtalk/webtalk.log
-# Journal file: C:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.sdk/webtalk\webtalk.jou
+# Log file: C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl

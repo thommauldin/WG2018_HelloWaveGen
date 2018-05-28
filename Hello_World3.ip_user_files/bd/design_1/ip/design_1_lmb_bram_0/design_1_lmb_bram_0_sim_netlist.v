@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.3.1 (win64) Build 2035080 Fri Oct 20 14:20:01 MDT 2017
-// Date        : Sat Nov  4 15:48:53 2017
-// Host        : Thomas-labtop running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+// Date        : Wed Feb 28 00:15:27 2018
+// Host        : Thomas-Laptop running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_lmb_bram_0/design_1_lmb_bram_0_sim_netlist.v
+//               C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_lmb_bram_0/design_1_lmb_bram_0_sim_netlist.v
 // Design      : design_1_lmb_bram_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -12,7 +12,7 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "design_1_lmb_bram_0,blk_mem_gen_v8_4_0,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "blk_mem_gen_v8_4_0,Vivado 2017.3.1" *) 
+(* CHECK_LICENSE_TYPE = "design_1_lmb_bram_0,blk_mem_gen_v8_4_1,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "blk_mem_gen_v8_4_1,Vivado 2017.4" *) 
 (* NotValidForBitStream *)
 module design_1_lmb_bram_0
    (clka,
@@ -156,7 +156,7 @@ module design_1_lmb_bram_0
   (* C_WRITE_WIDTH_B = "32" *) 
   (* C_XDEVICEFAMILY = "spartan7" *) 
   (* downgradeipidentifiedwarnings = "yes" *) 
-  design_1_lmb_bram_0_blk_mem_gen_v8_4_0 U0
+  design_1_lmb_bram_0_blk_mem_gen_v8_4_1 U0
        (.addra(addra),
         .addrb(addrb),
         .clka(clka),
@@ -6225,8 +6225,8 @@ endmodule
 (* C_USE_URAM = "0" *) (* C_WEA_WIDTH = "4" *) (* C_WEB_WIDTH = "4" *) 
 (* C_WRITE_DEPTH_A = "16384" *) (* C_WRITE_DEPTH_B = "16384" *) (* C_WRITE_MODE_A = "WRITE_FIRST" *) 
 (* C_WRITE_MODE_B = "WRITE_FIRST" *) (* C_WRITE_WIDTH_A = "32" *) (* C_WRITE_WIDTH_B = "32" *) 
-(* C_XDEVICEFAMILY = "spartan7" *) (* ORIG_REF_NAME = "blk_mem_gen_v8_4_0" *) (* downgradeipidentifiedwarnings = "yes" *) 
-module design_1_lmb_bram_0_blk_mem_gen_v8_4_0
+(* C_XDEVICEFAMILY = "spartan7" *) (* ORIG_REF_NAME = "blk_mem_gen_v8_4_1" *) (* downgradeipidentifiedwarnings = "yes" *) 
+module design_1_lmb_bram_0_blk_mem_gen_v8_4_1
    (clka,
     rsta,
     ena,
@@ -6492,7 +6492,7 @@ module design_1_lmb_bram_0_blk_mem_gen_v8_4_0
   assign sbiterr = \<const0> ;
   GND GND
        (.G(\<const0> ));
-  design_1_lmb_bram_0_blk_mem_gen_v8_4_0_synth inst_blk_mem_gen
+  design_1_lmb_bram_0_blk_mem_gen_v8_4_1_synth inst_blk_mem_gen
        (.addra(addra[15:2]),
         .addrb(addrb[15:2]),
         .clka(clka),
@@ -6511,8 +6511,8 @@ module design_1_lmb_bram_0_blk_mem_gen_v8_4_0
         .web(web));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_v8_4_0_synth" *) 
-module design_1_lmb_bram_0_blk_mem_gen_v8_4_0_synth
+(* ORIG_REF_NAME = "blk_mem_gen_v8_4_1_synth" *) 
+module design_1_lmb_bram_0_blk_mem_gen_v8_4_1_synth
    (douta,
     doutb,
     rsta_busy,

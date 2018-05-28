@@ -1,10 +1,10 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2017.3.1 (win64) Build 2035080 Fri Oct 20 14:20:01 MDT 2017
--- Date        : Sat Nov  4 15:24:36 2017
--- Host        : Thomas-labtop running 64-bit major release  (build 9200)
+-- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+-- Date        : Wed Feb 28 00:11:57 2018
+-- Host        : Thomas-Laptop running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Users/Thomas/Documents/GitHub/Hello_World3/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0_sim_netlist.vhdl
+--               C:/Users/thomm/Documents/GitHub/WG2018_HelloWaveGen/Hello_World3.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0_sim_netlist.vhdl
 -- Design      : design_1_mdm_1_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -8555,6 +8555,8 @@ entity design_1_mdm_1_0_MDM is
   attribute C_DBG_REG_ACCESS of design_1_mdm_1_0_MDM : entity is 0;
   attribute C_DEBUG_INTERFACE : integer;
   attribute C_DEBUG_INTERFACE of design_1_mdm_1_0_MDM : entity is 0;
+  attribute C_EXT_TRIG_RESET_VALUE : string;
+  attribute C_EXT_TRIG_RESET_VALUE of design_1_mdm_1_0_MDM : entity is "20'b11110001001000110100";
   attribute C_FAMILY : string;
   attribute C_FAMILY of design_1_mdm_1_0_MDM : entity is "spartan7";
   attribute C_INTERCONNECT : integer;
@@ -8587,8 +8589,12 @@ entity design_1_mdm_1_0_MDM is
   attribute C_TRACE_CLK_OUT_PHASE of design_1_mdm_1_0_MDM : entity is 90;
   attribute C_TRACE_DATA_WIDTH : integer;
   attribute C_TRACE_DATA_WIDTH of design_1_mdm_1_0_MDM : entity is 32;
+  attribute C_TRACE_ID : integer;
+  attribute C_TRACE_ID of design_1_mdm_1_0_MDM : entity is 110;
   attribute C_TRACE_OUTPUT : integer;
   attribute C_TRACE_OUTPUT of design_1_mdm_1_0_MDM : entity is 0;
+  attribute C_TRACE_PROTOCOL : integer;
+  attribute C_TRACE_PROTOCOL of design_1_mdm_1_0_MDM : entity is 1;
   attribute C_USE_BSCAN : integer;
   attribute C_USE_BSCAN of design_1_mdm_1_0_MDM : entity is 0;
   attribute C_USE_CONFIG_RESET : integer;
@@ -14440,7 +14446,7 @@ entity design_1_mdm_1_0 is
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of design_1_mdm_1_0 : entity is "yes";
   attribute x_core_info : string;
-  attribute x_core_info of design_1_mdm_1_0 : entity is "MDM,Vivado 2017.3.1";
+  attribute x_core_info of design_1_mdm_1_0 : entity is "MDM,Vivado 2017.4";
 end design_1_mdm_1_0;
 
 architecture STRUCTURE of design_1_mdm_1_0 is
@@ -15330,6 +15336,8 @@ architecture STRUCTURE of design_1_mdm_1_0 is
   attribute C_DBG_REG_ACCESS of U0 : label is 0;
   attribute C_DEBUG_INTERFACE : integer;
   attribute C_DEBUG_INTERFACE of U0 : label is 0;
+  attribute C_EXT_TRIG_RESET_VALUE : string;
+  attribute C_EXT_TRIG_RESET_VALUE of U0 : label is "20'b11110001001000110100";
   attribute C_FAMILY : string;
   attribute C_FAMILY of U0 : label is "spartan7";
   attribute C_INTERCONNECT : integer;
@@ -15362,8 +15370,12 @@ architecture STRUCTURE of design_1_mdm_1_0 is
   attribute C_TRACE_CLK_OUT_PHASE of U0 : label is 90;
   attribute C_TRACE_DATA_WIDTH : integer;
   attribute C_TRACE_DATA_WIDTH of U0 : label is 32;
+  attribute C_TRACE_ID : integer;
+  attribute C_TRACE_ID of U0 : label is 110;
   attribute C_TRACE_OUTPUT : integer;
   attribute C_TRACE_OUTPUT of U0 : label is 0;
+  attribute C_TRACE_PROTOCOL : integer;
+  attribute C_TRACE_PROTOCOL of U0 : label is 1;
   attribute C_USE_BSCAN : integer;
   attribute C_USE_BSCAN of U0 : label is 0;
   attribute C_USE_CONFIG_RESET : integer;
@@ -15387,7 +15399,7 @@ architecture STRUCTURE of design_1_mdm_1_0 is
   attribute x_interface_info of Interrupt : signal is "xilinx.com:signal:interrupt:1.0 INTERRUPT.INTERRUPT INTERRUPT";
   attribute x_interface_parameter of Interrupt : signal is "XIL_INTERFACENAME INTERRUPT.INTERRUPT, SENSITIVITY EDGE_RISING, SUGGESTED_PRIORITY HIGH, PortWidth 1";
   attribute x_interface_info of S_AXI_ACLK : signal is "xilinx.com:signal:clock:1.0 CLK.S_AXI_ACLK CLK";
-  attribute x_interface_parameter of S_AXI_ACLK : signal is "XIL_INTERFACENAME CLK.S_AXI_ACLK, ASSOCIATED_BUSIF S_AXI:MBDEBUG_AXI_0:MBDEBUG_AXI_1:MBDEBUG_AXI_2:MBDEBUG_AXI_3:MBDEBUG_AXI_4:MBDEBUG_AXI_5:MBDEBUG_AXI_6:MBDEBUG_AXI_7:MBDEBUG_AXI_8:MBDEBUG_AXI_9:MBDEBUG_AXI_10:MBDEBUG_AXI_11:MBDEBUG_AXI_12:MBDEBUG_AXI_13:MBDEBUG_AXI_14:MBDEBUG_AXI_15:MBDEBUG_AXI_16:MBDEBUG_AXI_17:MBDEBUG_AXI_18:MBDEBUG_AXI_19:MBDEBUG_AXI_20:MBDEBUG_AXI_21:MBDEBUG_AXI_22:MBDEBUG_AXI_23:MBDEBUG_AXI_24:MBDEBUG_AXI_25:MBDEBUG_AXI_26:MBDEBUG_AXI_27:MBDEBUG_AXI_28:MBDEBUG_AXI_29:MBDEBUG_AXI_30:MBDEBUG_AXI_31, ASSOCIATED_RESET S_AXI_ARESETN, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1";
+  attribute x_interface_parameter of S_AXI_ACLK : signal is "XIL_INTERFACENAME CLK.S_AXI_ACLK, ASSOCIATED_BUSIF S_AXI:MBDEBUG_AXI_0:MBDEBUG_AXI_1:MBDEBUG_AXI_2:MBDEBUG_AXI_3:MBDEBUG_AXI_4:MBDEBUG_AXI_5:MBDEBUG_AXI_6:MBDEBUG_AXI_7:MBDEBUG_AXI_8:MBDEBUG_AXI_9:MBDEBUG_AXI_10:MBDEBUG_AXI_11:MBDEBUG_AXI_12:MBDEBUG_AXI_13:MBDEBUG_AXI_14:MBDEBUG_AXI_15:MBDEBUG_AXI_16:MBDEBUG_AXI_17:MBDEBUG_AXI_18:MBDEBUG_AXI_19:MBDEBUG_AXI_20:MBDEBUG_AXI_21:MBDEBUG_AXI_22:MBDEBUG_AXI_23:MBDEBUG_AXI_24:MBDEBUG_AXI_25:MBDEBUG_AXI_26:MBDEBUG_AXI_27:MBDEBUG_AXI_28:MBDEBUG_AXI_29:MBDEBUG_AXI_30:MBDEBUG_AXI_31, ASSOCIATED_RESET S_AXI_ARESETN, FREQ_HZ 100000000, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1";
   attribute x_interface_info of S_AXI_ARESETN : signal is "xilinx.com:signal:reset:1.0 RST.S_AXI_ARESETN RST";
   attribute x_interface_parameter of S_AXI_ARESETN : signal is "XIL_INTERFACENAME RST.S_AXI_ARESETN, POLARITY ACTIVE_LOW";
   attribute x_interface_info of S_AXI_ARREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI ARREADY";
@@ -15403,7 +15415,7 @@ architecture STRUCTURE of design_1_mdm_1_0 is
   attribute x_interface_info of Dbg_Reg_En_0 : signal is "xilinx.com:interface:mbdebug:3.0 MBDEBUG_0 REG_EN";
   attribute x_interface_info of S_AXI_ARADDR : signal is "xilinx.com:interface:aximm:1.0 S_AXI ARADDR";
   attribute x_interface_info of S_AXI_AWADDR : signal is "xilinx.com:interface:aximm:1.0 S_AXI AWADDR";
-  attribute x_interface_parameter of S_AXI_AWADDR : signal is "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 4, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN /clk_wiz_1_clk_out1, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0";
+  attribute x_interface_parameter of S_AXI_AWADDR : signal is "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 4, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0";
   attribute x_interface_info of S_AXI_BRESP : signal is "xilinx.com:interface:aximm:1.0 S_AXI BRESP";
   attribute x_interface_info of S_AXI_RDATA : signal is "xilinx.com:interface:aximm:1.0 S_AXI RDATA";
   attribute x_interface_info of S_AXI_RRESP : signal is "xilinx.com:interface:aximm:1.0 S_AXI RRESP";
